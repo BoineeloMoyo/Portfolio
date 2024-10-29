@@ -266,6 +266,7 @@ section {
   animation-delay: calc(.1s * var(--i));
 
 }
+
 @keyframes show-bars {
   100% {
     transform: translateY(0%)
