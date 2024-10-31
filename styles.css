@@ -442,6 +442,7 @@ section {
   text-align: center;
   padding: 0 4rem;
   transform: translateY(100%);
+  transition: .5s ease;
 
 }
 
