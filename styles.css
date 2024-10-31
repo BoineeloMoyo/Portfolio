@@ -411,3 +411,12 @@ section {
   align-items: center;
   gap: 2.5rem;
 }
+
+.portfolio-container .portfolio-box {
+  position: relative;
+  border-radius: 2rem;
+  box-shadow: 0;
+  overflow: hidden;
+  display: flex;
+}
+
