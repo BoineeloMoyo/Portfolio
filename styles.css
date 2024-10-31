@@ -424,10 +424,9 @@ section {
   width:  100%;
   transition: .5s ease;
 }
-ßß
+
 .portfolio-box:hover img {
   transform: scale(1.1);
-
 }
 
 .portfolio-box .portfolio-layer {
@@ -444,6 +443,11 @@ section {
   padding: 0 4rem;
   transform: translateY(100%);
 }
+
+.portfolio-box .portfolio-layer {
+
+}
+
 .portfolio-layer h4 {
   font-size: 3rem;
 
