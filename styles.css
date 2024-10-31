@@ -442,15 +442,15 @@ section {
   text-align: center;
   padding: 0 4rem;
   transform: translateY(100%);
+
 }
 
-.portfolio-box .portfolio-layer {
-
+.portfolio-box:hover .portfolio-layer {
+  transform: translateY(0);
 }
 
 .portfolio-layer h4 {
   font-size: 3rem;
-
 }
 
 .portfolio-layer p {
