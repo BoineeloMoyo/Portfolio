@@ -524,3 +524,17 @@ section {
   padding: 2rem 9%;
   background: var(--second-bg-color);
 }
+
+.footer-text {
+  font-size: 1.6rem;
+}
+
+.footer-iconTop a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: .8rem;
+  background: var(--main-color);
+  border-radius: .8rem;
+
+}
