@@ -507,3 +507,7 @@ section {
 .contact form .input-box input {
   width: 49%;
 }
+
+.contact form textarea {
+  resize: none;
+}
