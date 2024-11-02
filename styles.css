@@ -46,6 +46,10 @@ section {
   animation-delay: 1.2s;
 }
 
+.header.sticky {
+  border-bottom: .1rem solid rgba(0, 0, 0, .2);
+}
+
 @keyframes show-content {
   100% {
     visibility: visible;
@@ -548,4 +552,21 @@ section {
 .footer-iconTop a i {
   font-size: 2.4rem;
   color: var(--second-bg-color);
+}
+
+/* BREAKPOINTS */
+@media (max-width: 1200px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 991px) {
+  .header {
+    padding: 2rem 3%;
+  }
+
+  section {
+    padding: 10rem 3% 2rem;
+  }
 }
