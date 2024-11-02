@@ -516,3 +516,11 @@ section {
   margin-top: 2rem;
   cursor: pointer;
 }
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: wrap;
+  padding: 2rem 9%;
+  background: var(--second-bg-color);
+}
