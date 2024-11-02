@@ -536,6 +536,7 @@ section {
   padding: .8rem;
   background: var(--main-color);
   border-radius: .8rem;
+  transition: .5s ease;
 
 }
 
