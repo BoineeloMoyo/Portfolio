@@ -607,5 +607,9 @@ section {
     flex-direction: column;
   }
 
+  .home-info h3 {
+    font-size: 2.6rem;
+  }
+
 
 }
