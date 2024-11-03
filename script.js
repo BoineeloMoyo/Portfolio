@@ -54,3 +54,5 @@ ScrollReveal().reveal('.home-info, .heading', { origin: 'top' });
 ScrollReveal().reveal('.home-img, .proficiency-container, .portfolio-box .contact form', { origin: 'bottom' });
 ScrollReveal().reveal('.home-info h1, .about-img', { origin: 'left' });
 ScrollReveal().reveal('.home-info p, .about-content', { origin: 'right' });
+
+/* =======================  Professional pie charts  ================================ */

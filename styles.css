@@ -557,14 +557,25 @@ section {
   border: 2px solid #fff;
 }
 .circle .points {
-  width: 2px;
+  width: 2ch;
   height: 10px;
   background-color: var(--bg-color);
   position: absolute;
   border-radius: 3px;
   transform: rotate(calc(var(--i)*120deg)) translateY(-45px);
+  animation: glow 0.04s linear forwards;
+  animation-delay: calc(var(--i)*0.05s);
 }
-
+@keyframes glow {
+  0% {
+    background: var(--bg-color);
+    box-shadow: none;
+  }
+  100% {
+    background: var(--main-color);
+    box-shadow: mediumturquoise;
+  }
+}
 .portfolio {
   background: var(--second-bg-color);
 }
