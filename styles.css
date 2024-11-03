@@ -447,7 +447,21 @@ section {
   border-radius: 25px;
   box-shadow: #0ef;
 }
-
+.skill-bar .bar .r {
+  width: 95%;
+}
+.skill-bar .bar .python {
+  width: 90%;
+}
+.skill-bar .bar .javascript {
+  width: 87%;
+}
+.skill-bar .bar .postgres-sql {
+  width: 85%;
+}
+.skill-bar .bar .css {
+  width: 60%;
+}
 .skill-bar .bar .html {
   width: 80%;
 }
