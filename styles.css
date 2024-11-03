@@ -443,6 +443,9 @@ section {
   height: 100%;
   position: absolute;
   left: 0;
+  background: var(--main-color);
+  border-radius: 25px;
+  box-shadow: #0ef;
 }
 .portfolio {
   background: var(--second-bg-color);
