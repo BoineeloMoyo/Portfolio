@@ -448,29 +448,87 @@ section {
   box-shadow: #0ef;
 }
 .skill-bar .bar .r {
-  width: 95%;
+  width: 85%;
   animation: r 2s;
 }
 .skill-bar .bar .python {
-  width: 90%;
+  width: 80%;
   animation: python 3s;
 }
 .skill-bar .bar .javascript {
-  width: 87%;
+  width: 80%;
   animation: javascript 4s;
 }
 .skill-bar .bar .postgres-sql {
-  width: 85%;
+  width: 78%;
   animation: postgres-sql 5s;
 }
 .skill-bar .bar .html {
-  width: 80%;
+  width: 75%;
   animation: html 6s;
 }
 .skill-bar .bar .css {
   width: 60%;
   animation: 7s;
 }
+
+@keyframes r {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 95%;
+  }
+}
+@keyframes python {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+@keyframes r {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 95%;
+  }
+}
+@keyframes r {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 95%;
+  }
+}
+@keyframes r {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 95%;
+  }
+}
+@keyframes r {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 95%;
+  }
+}
+@keyframes r {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 95%;
+  }
+}
+
 
 .portfolio {
   background: var(--second-bg-color);
