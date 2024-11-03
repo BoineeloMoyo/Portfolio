@@ -1,4 +1,15 @@
-/* =======================  Scroll section active link  =================== */
+/* =======================  Toggle Icon Navbar =================== */
+
+let menuIcon = document.querySelector('#menu-icon');
+let navbar = document.querySelector('.navbar');
+
+menuIcon.onClick = () => {
+    menuIcon.classList.toggle('bx-x');
+    navbar.classList.toggle('active');
+};
+
+
+/* =======================  Sticky Navbar ================================ */
 
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header nav a');
