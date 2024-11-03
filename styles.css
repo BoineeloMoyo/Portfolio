@@ -445,7 +445,7 @@ section {
   left: 0;
   background: var(--main-color);
   border-radius: 25px;
-  box-shadow: #0ef;
+  box-shadow: var(--main-color);
 }
 .skill-bar .bar .r {
   width: 85%;
@@ -469,7 +469,7 @@ section {
 }
 .skill-bar .bar .css {
   width: 60%;
-  animation: 7s;
+  animation: css 7s;
 }
 
 @keyframes r {
