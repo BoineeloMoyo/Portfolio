@@ -562,7 +562,7 @@ section {
   background-color: var(--bg-color);
   position: absolute;
   border-radius: 3px;
-  transform: rotate(calc(var(--i)*120deg)) translateY(-45px);
+  transform: rotate(calc(var(--i)*var(--rot))) translateY(-45px);
   animation: glow 0.04s linear forwards;
   animation-delay: calc(var(--i)*0.05s);
 }
