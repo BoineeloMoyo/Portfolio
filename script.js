@@ -56,3 +56,18 @@ ScrollReveal().reveal('.home-info h1, .about-img', { origin: 'left' });
 ScrollReveal().reveal('.home-info p, .about-content', { origin: 'right' });
 
 /* =======================  Professional pie charts  ================================ */
+
+const circles = document.querySelectorAll('.circle');
+circles.forEach(elem=> {
+    var dots = elem.getAttribute('data-percent');
+    var marked = elem.getAttribute('data-percent');
+    var percent = Math.floor(dots * marked /100);
+    var points = "";
+    var rotate = 360/ dots;
+
+    for (let i = 0; i < dots; i++) {
+        points += `<div class="points" style="--i:1;"></div>`
+        
+    }
+
+})
