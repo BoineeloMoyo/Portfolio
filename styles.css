@@ -456,7 +456,7 @@ section {
   animation: python 3s;
 }
 .skill-bar .bar .javascript {
-  width: 80%;
+  width: 79%;
   animation: javascript 4s;
 }
 .skill-bar .bar .postgres-sql {
@@ -477,7 +477,7 @@ section {
     width: 0%;
   }
   100% {
-    width: 95%;
+    width: 85%;
   }
 }
 @keyframes python {
@@ -488,46 +488,39 @@ section {
     width: 80%;
   }
 }
-@keyframes r {
+@keyframes javascript {
   0% {
     width: 0%;
   }
   100% {
-    width: 95%;
+    width: 79%;
   }
 }
-@keyframes r {
+@keyframes postgres-sql {
   0% {
     width: 0%;
   }
   100% {
-    width: 95%;
+    width: 78%;
   }
 }
-@keyframes r {
+@keyframes html {
   0% {
     width: 0%;
   }
   100% {
-    width: 95%;
+    width: 75%;
   }
 }
-@keyframes r {
+@keyframes css {
   0% {
     width: 0%;
   }
   100% {
-    width: 95%;
+    width: 60%;
   }
 }
-@keyframes r {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 95%;
-  }
-}
+
 
 
 .portfolio {
