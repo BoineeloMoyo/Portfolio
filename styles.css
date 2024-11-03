@@ -573,6 +573,13 @@ section {
   .proficiency {
     padding: 7rem;
   }
+  .portfolio {
+    padding-bottom: 7rem;
+  }
+  
+  .contact {
+    min-height: auto;
+  }
 
   .footer {
     padding: 2rem 3%;
@@ -644,6 +651,26 @@ section {
   .portfolio-container {
     grid-template-columns: repeat(2, 1fr) ;
   }
+}
 
+@media (max-width: 617px) {
+  .portfolio-container {
+    grid-template-columns: 1fr;
+  }
+}
 
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+
+  .contact form .input-box input {
+    width: 100%;
+  }
+}
+
+@media (max-width: 365px) {
+  .home-img img {
+    width: 90vw;
+  }
 }
