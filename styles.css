@@ -401,6 +401,16 @@ section {
 
 }
 
+.skills {
+  background: var(--second-bg-color);
+}
+
+.skills-main {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2 1fr);
+}
+
 .portfolio {
   background: var(--second-bg-color);
 }
