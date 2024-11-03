@@ -429,6 +429,14 @@ section {
   padding: 0 10px;
 }
 
+.skill-left .skill-bar bar {
+  width: 100%;
+  height: 10px;
+  background-color: var(--bg-color);
+  border-radius: 25px;
+  margin-top: 10px;
+}
+
 .portfolio {
   background: var(--second-bg-color);
 }
