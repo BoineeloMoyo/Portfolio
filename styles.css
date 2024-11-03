@@ -570,6 +570,10 @@ section {
     padding: 10rem 3% 2rem;
   }
 
+  .proficiency {
+    padding: 7rem;
+  }
+
   .footer {
     padding: 2rem 3%;
   }
@@ -631,6 +635,14 @@ section {
 
   .proficiency h2 {
     margin-bottom: 3rem;
+  }
+
+  .portfolio h2 {
+    margin-bottom: 3rem;
+  }
+
+  .portfolio-container {
+    grid-template-columns: repeat(2, 1fr) ;
   }
 
 
