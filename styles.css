@@ -681,4 +681,9 @@ section {
   .footer {
     flex-direction: column-reverse;
   }
+
+  .footer p {
+    text-align: center;
+    margin-top: 2rem;
+  }
 }
