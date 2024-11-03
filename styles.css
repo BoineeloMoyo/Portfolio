@@ -405,12 +405,15 @@ section {
   background: var(--second-bg-color);
 }
 
-.skills-main {
+.skill-main {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(2,1fr);
   grid-row-gap: 30px;
   grid-column-gap: 50px;
+}
+.skill-bar {
+  margin-bottom: 2.3rem;
 }
 
 .portfolio {
