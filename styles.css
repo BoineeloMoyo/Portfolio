@@ -673,4 +673,8 @@ section {
   .home-img img {
     width: 90vw;
   }
+
+  .about-img {
+    width: 90vw;
+  }
 }
