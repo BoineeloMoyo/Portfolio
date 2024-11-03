@@ -416,6 +416,11 @@ section {
   margin-bottom: 2.3rem;
 }
 
+.skill-main h3 {
+  margin-bottom: 2rem;
+  font-size: 26px;
+}
+
 .portfolio {
   background: var(--second-bg-color);
 }
