@@ -429,7 +429,7 @@ section {
   padding: 0 10px;
 }
 
-.skill-left .skill-bar bar {
+.skill-left .skill-bar .bar {
   width: 100%;
   height: 10px;
   background-color: var(--bg-color);
@@ -437,6 +437,12 @@ section {
   margin-top: 10px;
 }
 
+.skill-bar .bar span {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+}
 .portfolio {
   background: var(--second-bg-color);
 }
