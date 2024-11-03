@@ -447,6 +447,10 @@ section {
   border-radius: 25px;
   box-shadow: #0ef;
 }
+
+.skill-bar .bar .html {
+  width: 80%;
+}
 .portfolio {
   background: var(--second-bg-color);
 }
