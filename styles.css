@@ -677,4 +677,8 @@ section {
   .about-img {
     width: 90vw;
   }
+
+  .footer {
+    flex-direction: column-reverse;
+  }
 }
