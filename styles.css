@@ -563,9 +563,8 @@ section {
   position: absolute;
   border-radius: 3px;
   transform: rotate(calc(var(--i)*var(--rot))) translateY(-45px);
-  animation: glow 0.04s linear forwards;
-  animation-delay: calc(var(--i)*0.05s);
 }
+
 @keyframes glow {
   0% {
     background: var(--bg-color);
@@ -576,6 +575,11 @@ section {
     box-shadow: mediumturquoise;
   }
 }
+.pointsMarked {
+  animation: glow 0.04s linear forwards;
+  animation-delay: calc(var(--i)*0.05s);
+}
+
 .portfolio {
   background: var(--second-bg-color);
 }
