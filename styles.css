@@ -14,7 +14,7 @@
   --text-color: #fff;
   --main-color: #0ef;
 }
-
+ 
 html {
   font-size: 62.5%;
   overflow-x: hidden;
@@ -195,7 +195,6 @@ section {
   background: var(--main-color);
   color: var(--bg-color);
   box-shadow: 0 0 10px var(--main-color);
-
 }
 
 .home-img .img-box {
@@ -870,4 +869,3 @@ section {
     margin-top: 2rem;
   }
 }
-

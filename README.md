@@ -1,2 +1,2 @@
 # Portfolio
- my portfolio
+Development of a portfolio from scratch
