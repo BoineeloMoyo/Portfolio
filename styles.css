@@ -664,7 +664,6 @@ section {
 
 .contact h2 {
   margin-bottom: 3rem;
-
 }
 
 .contact form {
@@ -834,7 +833,18 @@ section {
     grid-template-columns: repeat(2, 1fr) ;
   }
 }
+.resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 0.9%;
+}
 
+.resume .resume-row {
+  display: flex;
+
+}
 @media (max-width: 617px) {
   .portfolio-container {
     grid-template-columns: 1fr;
