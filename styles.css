@@ -861,13 +861,19 @@ section {
 .resume .resume-row {
   display: flex;
   column-gap: 64px;
-
+  flex-wrap: wrap;
+}
+.resume-row .resume-column {
+  flex: 1 1 320px;
 }
 .resume-column .title {
+  position: relative;
+  display: inline-block;
   font-size: 28px;
   margin: 32px 0 16px 30px;
 }
 .resume-column .resume-box {
+  position: relative;
   background: var(--bg-color);
   border-left: 2px solid var(--main-color);
 }
@@ -916,7 +922,21 @@ section {
 
 .resume-content .content p {
   font-size: 16px;
-
+}
+.resume-column .animate {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 105%;
+  height: 100%;
+  background: var(--bg-color);
+  animation: show-right 1s ease forwards;
+  animation-delay: calc(.3s *var(--i));
+}
+@keyframes show-right {
+  100% {
+    width: 0;
+  }
 }
 
 @media (max-width: 617px) {
