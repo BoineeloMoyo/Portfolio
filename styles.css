@@ -833,6 +833,7 @@ section {
     grid-template-columns: repeat(2, 1fr) ;
   }
 }
+/* Resume Styling */
 .resume {
   display: flex;
   justify-content: center;
@@ -843,8 +844,26 @@ section {
 
 .resume .resume-row {
   display: flex;
+  column-gap: 64px;
 
 }
+.resume-column .title {
+  font-size: 28px;
+}
+.resume-column .resume-box {
+  background: var(--second-bg-color);
+  border-left: 2px solid var(--main-color);
+}
+.resume-box .resume-content{
+  padding: 27px;
+}
+.resume-content .content {
+  padding: 24px;
+  border: 2px solid var(--main-color);
+  border-radius: 8px;
+  margin-bottom: 32px;
+}
+
 @media (max-width: 617px) {
   .portfolio-container {
     grid-template-columns: 1fr;
