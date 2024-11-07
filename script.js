@@ -77,25 +77,5 @@ ScrollReveal().reveal('.home-info p, .about-content', { origin: 'right' });
 
 // })
 
-const circles = document.querySelectorAll('.circle');
-
-circles.forEach(elem => {
-    const dots = elem.getAttribute('data-dots'); // Adjusted to data-dots as per HTML attribute
-    const marked = elem.getAttribute('data-percent');
-    const percent = Math.floor(dots * marked / 100);
-    const rotate = 360 / dots;
-    
-    let points = '';
-    for (let i = 0; i < dots; i++) {
-        points += `<div class="points" style="--i:${i}; --rot:${rotate}deg"></div>`;
-    }
-
-    elem.innerHTML = points;
-
-    const pointsMarked = elem.querySelectorAll('.points');
-    for (let i = 0; i < percent; i++) {
-        pointsMarked[i].classList.add('marked');
-    }
-});
 
 
