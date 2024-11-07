@@ -374,6 +374,7 @@ section {
 .proficiency-container {
   display: flex;
   justify-content: center;
+  margin-bottom: 60px;
   align-items: center;
   flex-wrap: wrap;
   gap: 2rem;
@@ -578,6 +579,40 @@ section {
   align-items: center;
   border: 2px solid #fff;
 }
+
+
+
+.points {
+  width: 5px; /* Adjust for thickness */
+  height: 20px; /* Adjust for length */
+  background-color: #00FFFF; /* Update to match main color */
+  position: absolute;
+  top: 10px; /* Adjust to position correctly */
+  left: 50%;
+  transform-origin: 0 60px; /* Center rotation point */
+  transform: rotate(calc(var(--i) * var(--rot)));
+  border-radius: 50%;
+}
+
+.points.marked {
+  animation: glow 0.04s linear forwards;
+  animation-delay: calc(var(--i) * 0.05s);
+}
+@keyframes glow {
+  0% {
+      background: #00FFFF; /* Start color */
+      box-shadow: none;
+  }
+  100% {
+      background: #00FFFF; /* End color */
+      box-shadow: 0 0 5px #00FFFF;
+  }
+}
+
+
+
+
+
 
 .circle .points {
   width: 2ch;
