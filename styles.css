@@ -466,6 +466,7 @@ section {
   border-radius: 25px;
   box-shadow: rgb(121, 243, 243);
 }
+
 .skill-bar .bar .r {
   width: 85%;
   animation: r 2s;
