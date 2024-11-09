@@ -921,9 +921,16 @@ section {
   color: var(--main-color);
 }
 
-.resume-content .content .ul li {
-  font-size: 16px;
+.resume-content .content .ul {
+  list-style-type: disc;
+  color: var(--main-color);
+}
+
+
+.resume-content .content ul li {
+  font-size: 18px;
   margin-bottom: 10px;
+  padding-left: 20px;
 }
 
 .resume-column .animate {
