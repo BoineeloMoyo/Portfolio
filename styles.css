@@ -57,13 +57,6 @@ section {
   border-bottom: .1rem solid rgba(0, 0, 0, .2);
 }
 
-@keyframes show-content {
-  100% {
-    visibility: visible;
-    opacity: 1;
-  }
-}
-
 .logo {
   font-size: 30px;
   font-weight: 700;
@@ -79,7 +72,7 @@ section {
   font-size: 20px;
   color: var(--text-color);
   font-weight: 500;
-  margin-left:35px;
+  margin-left: 35px;
   transition: .5s;
 }
 
@@ -87,6 +80,19 @@ section {
 .navbar a.active {
   color: var(--main-color);
 }
+
+
+
+
+
+@keyframes show-content {
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+
 
 .home {
   display: flex;
