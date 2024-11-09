@@ -59,7 +59,7 @@ ScrollReveal().reveal('.home-info p, .about-content', { origin: 'right' });
 
 const circles = document.querySelectorAll('.circle');
 circles.forEach(elem=> {
-    var dots = elem.getAttribute('data-percent');
+    var dots = elem.getAttribute('data-dots');
     var marked = elem.getAttribute('data-percent');
     var percent = Math.floor(dots * marked /100);
     var points = "";
