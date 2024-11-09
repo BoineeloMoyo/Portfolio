@@ -81,19 +81,7 @@ section {
   color: var(--main-color);
 }
 
-
-
-
-
-@keyframes show-content {
-  100% {
-    visibility: visible;
-    opacity: 1;
-  }
-}
-
-
-
+/* Home Section */
 .home {
   display: flex;
   align-items: center;
@@ -114,7 +102,6 @@ section {
 .home-info h3 {
   font-size: 3.2rem;
   font-weight: 700;
-
 }
 
 .home-info h2 {
