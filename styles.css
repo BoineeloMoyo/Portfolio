@@ -464,7 +464,7 @@ section {
   left: 0;
   background: var(--main-color);
   border-radius: 25px;
-  box-shadow: var(--main-color);
+  box-shadow: rgb(121, 243, 243);
 }
 .skill-bar .bar .r {
   width: 85%;
