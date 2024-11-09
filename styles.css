@@ -584,12 +584,12 @@ section {
 .circle .points {
   width: 2px;
   height: 10px;
-  background-color: var(--bg-color);
+  background-color: var(--second-bg-color);
   position: absolute;
   border-radius: 3px;
   transform: rotate(calc(var(--i)*var(--rot))) translateY(-45px);
-  animation: glow 0.04s linear forwards;
-  animation-delay: calc(var(--i)*0.05s);
+  /* animation: glow 0.04s linear forwards;
+  animation-delay: calc(var(--i)*0.05s); */
 }
 
 @keyframes glow {
