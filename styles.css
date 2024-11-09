@@ -873,13 +873,14 @@ section {
   background-color: var(--second-bg-color);
   align-items: center;
   min-height: 100vh;
-  padding: 0;
+  padding: 6rem;
 }
 
 .resume .resume-row {
   display: flex;
   column-gap: 64px;
   flex-wrap: wrap;
+  align-items: center;
 }
 .resume-row .resume-column {
   flex: 1 1 320px;
@@ -916,6 +917,13 @@ section {
   border: 2px solid var(--main-color);
   border-radius: 8px;
   margin-bottom: 32px;
+}
+.resume h1 {
+  top: 0; /* Pin it to the top of the page */
+  left: 50%;
+  transform: translateX(-50%); /* Center the heading horizontally */
+  margin-bottom: 4rem; /* Space between the heading and the rest of the content */
+  z-index: 10; /* Ensure it's on top of other content */
 }
 
 .resume-content .content .year {
