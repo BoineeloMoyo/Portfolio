@@ -935,6 +935,7 @@ section {
 /* Color the bullet itself */
 .resume-content .content ul li::marker {
   color: var(--main-color); 
+  font-size: 2rem;
 }
 
 
