@@ -544,7 +544,7 @@ section {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-
+/* Each skill box */
 .box {
   position: relative;
   width: 120px;
@@ -572,7 +572,7 @@ section {
   display: block;
   font-weight: 600;
 }
-
+/* Circle (pie chart base) */
 .circle {
   width: 100%;
   height: 120px;
