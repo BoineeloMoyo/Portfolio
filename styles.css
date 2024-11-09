@@ -119,13 +119,6 @@ section {
   animation-delay: calc(-4s * var(--i));
 }
 
-@keyframes display-text {
-  25%, 
-  100% {
-    display: none;
-  }
-}
-
 .home-info h2 span::before {
   content: attr(data-text);
   position: absolute;
@@ -137,23 +130,12 @@ section {
   animation: fill-text 4s linear infinite;
 }
 
-@keyframes fill-text {
-  10%,
-  100% {
-    width: 0;
-  }
-
-  70%,
-  90% {
-    width: 100%;
-  }
-}
-
 .home-info p {
   font-size: 16px;
   margin: 10px 0 25px;
 }
 
+/* Social Media Buttons */
 .home-info .social-media {
   display: flex;
   align-items: center;
