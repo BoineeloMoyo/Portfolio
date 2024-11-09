@@ -928,10 +928,15 @@ section {
 
 
 .resume-content .content ul li {
-  font-size: 18px;
-  margin-bottom: 10px;
-  padding-left: 20px;
+  font-size: 12px;
+  margin-bottom: 8px;
+  padding-right: 10px;
 }
+/* Color the bullet itself */
+.resume-content .content ul li::marker {
+  color: var(--main-color); 
+}
+
 
 .resume-column .animate {
   position: absolute;
