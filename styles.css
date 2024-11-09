@@ -941,6 +941,16 @@ section {
 .resume-content .content p {
   font-size: 16px;
 }
+.resume-row {
+  display: flex;
+  flex-direction: column; /* Ensure the timeline content stacks vertically */
+  row-gap: 2rem; /* Space between timeline sections */
+}
+
+.resume-column {
+  flex: 1; /* Ensure each column takes up equal space */
+}
+
 .resume-column .animate {
   position: absolute;
   top: 0;
