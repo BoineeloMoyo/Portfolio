@@ -877,8 +877,18 @@ section {
   padding: 6rem 0;
 }
 
+/* Center the heading */
+.resume h2.heading {
+  font-size: 5rem;
+  text-align: center;
+  margin-bottom: 3rem;  /* Space between heading and columns */
+}
+
+
 .resume .resume-row {
   display: flex;
+  width: 100%;
+  justify-content: center;
   column-gap: 64px;
   flex-wrap: wrap;
   align-items: center;
