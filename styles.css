@@ -848,9 +848,8 @@ section {
 .resume h2.heading {
   font-size: 5rem;
   text-align: center;
-  margin-bottom: 3rem;  /* Space between heading and columns */
+  margin-bottom: 3rem; 
 }
-
 
 .resume .resume-row {
   display: flex;
@@ -860,24 +859,29 @@ section {
   flex-wrap: wrap;
   align-items: center;
 }
+
 .resume-row .resume-column {
   flex: 1 1 320px;
 }
+
 .resume-column .title {
   position: relative;
   display: inline-block;
   font-size: 28px;
   margin: 32px 0 16px 30px;
 }
+
 .resume-column .resume-box {
   position: relative;
   background: var(--bg-color);
   border-left: 2px solid var(--main-color);
 }
+
 .resume-box .resume-content{
   position: relative;
   padding: 27px;
 }
+
 .resume-box .resume-content::before {
   content: '';
   position: absolute;
