@@ -599,6 +599,22 @@ section {
   border-radius: 3px;
   transform: rotate(calc(var(--i)*var(--rot))) translateY(-45px);
 }
+
+/* Animation for the points */
+.points.marked {
+  background-color: #FF1493; /* Color for filled segments */
+  animation: glow 0.4s ease-out forwards;
+}
+
+/* Glow animation for filled segments */
+@keyframes glow {
+  from {
+      box-shadow: 0 0 5px #00FFCC;
+  }
+  to {
+      box-shadow: 0 0 10px #FF1493;
+  }
+}
 /* 
 @keyframes glow {
   0% {
