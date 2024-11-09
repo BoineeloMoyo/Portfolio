@@ -580,6 +580,10 @@ section {
   align-items: center;
   border: 2px solid #fff;
 }
+.points {
+  background-color: #ff0000; /* Red color to check visibility */
+  outline: 1px solid black; /* Border for visibility */
+}
 
 .circle .points {
   width: 2px;
@@ -609,6 +613,7 @@ section {
 
 .portfolio {
   background: var(--second-bg-color);
+  margin-bottom: -25rem;
 }
 
 .portfolio h2 {
@@ -861,13 +866,14 @@ section {
   }
 }
 
+/* Resume Section */
 .resume {
   display: flex;
   justify-content: center;
   background-color: var(--second-bg-color);
   align-items: center;
   min-height: 100vh;
-  padding: 0.9%;
+  padding: 0;
 }
 
 .resume .resume-row {

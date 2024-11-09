@@ -3,8 +3,7 @@
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
-menuIcon.onClick = () => {
-    menuIcon.classList.toggle('bx-x');
+menuIcon.onClick = () => {menuIcon.classList.toggle('bx-x');
     navbar.classList.toggle('active');
 };
 
@@ -71,7 +70,8 @@ circles.forEach(elem=> {
     elem.innerHTML = points;
     const pointsMarked = elem.querySelectorAll('.points');
     for (let i =  0; i<percent; i++) {
-        pointsMarked[i].classList.add('pointsMarked')  
+        pointsMarked[i].classList.add('pointsMarked');
+
         
     }
 
