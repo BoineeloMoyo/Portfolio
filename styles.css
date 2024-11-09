@@ -557,7 +557,7 @@ section {
   color: #fff;
   font-size: 1rem;
 }
-
+s
 .box .text big {
   font: 400;
   letter-spacing: 1px;
@@ -588,6 +588,7 @@ section {
   position: absolute;
   border-radius: 3px;
   transform: rotate(calc(var(--i)*var(--rot))) translateY(-45px);
+  animation: glow 0.04s linear forwards;
 }
 
 @keyframes glow {
