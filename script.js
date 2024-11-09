@@ -61,7 +61,7 @@ const circles = document.querySelectorAll('.circle');
 circles.forEach(elem=> {
     var dots = elem.getAttribute('data-dots');
     var marked = elem.getAttribute('data-percent');
-    var percent = Math.floor(dots*marked /100);
+    var percent = Math.floor(dots*marked/100);
     var points = "";
     var rotate = 360 / dots;
 
