@@ -207,12 +207,6 @@ section {
   animation-delay: -5s;
 }
 
-@keyframes rotate-border {
-  100% {
-    transform: rotate(360deg)
-  }
-}
-
 .home-img .img-box .img-item {
   position: relative;
   width: 100%;
@@ -235,7 +229,7 @@ section {
   mix-blend-mode: lighten;
 
 }
-
+/* Animated Bars section */
 .bars-animation {
   position: absolute;
   width: 100%;
@@ -254,12 +248,7 @@ section {
 
 }
 
-@keyframes show-bars {
-  100% {
-    transform: translateY(0%)
-  }
-}
-
+/* ABOUT SECTION */
 .about {
   display: flex;
   justify-content: center;
@@ -293,12 +282,6 @@ section {
 
 .about-img .img-box::after {
   animation-delay: -5s;
-}
-
-@keyframes rotate-border {
-  100% {
-    transform: rotate(360deg)
-  }
 }
 
 .about-img .img-box .img-item {
@@ -964,11 +947,48 @@ section {
   }
 }
 
+@keyframes fill-text {
+  10%,
+  100% {
+    width: 0;
+  }
+
+  70%,
+  90% {
+    width: 100%;
+  }
+}
+
+@keyframes rotate-border {
+  100% {
+    transform: rotate(360deg)
+  }
+}
+
+/* About section key frames */
+@keyframes rotate-border {
+  100% {
+    transform: rotate(360deg)
+  }
+}
+
+@keyframes show-bars {
+  100% {
+    transform: translateY(0%)
+  }
+}
+
+
+
+
+
 @keyframes show-right {
   100% {
     width: 0;
   }
 }
+
+
 
 @media (max-width: 617px) {
   .portfolio-container {
