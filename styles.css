@@ -583,6 +583,13 @@ section {
   border-radius: 50%;
   border: 2px solid #fff;
 }
+/* Skill percentage text within the circle */
+.circle .text big {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  position: absolute;
+}
 
 .circle .points {
   width: 2ch;
