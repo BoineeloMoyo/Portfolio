@@ -599,7 +599,7 @@ section {
   border-radius: 3px;
   transform: rotate(calc(var(--i)*var(--rot))) translateY(-45px);
 }
-
+/* 
 @keyframes glow {
   0% {
     background: var(--bg-color);
@@ -609,7 +609,7 @@ section {
     background: var(--main-color);
     box-shadow: mediumturquoise;
   }
-}
+} */
 /* .pointsMarked {
   animation: glow 0.04s linear forwards;
   animation-delay: calc(var(--i)*0.05s);
