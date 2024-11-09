@@ -845,11 +845,11 @@ section {
 }
 
 /* Center the heading */
-.resume h2.heading {
+/* .resume h2.heading {
   font-size: 5rem;
   text-align: center;
   margin-bottom: 3rem; 
-}
+} */
 
 .resume .resume-row {
   display: flex;
@@ -921,7 +921,7 @@ section {
   color: var(--main-color);
 }
 
-.resume-content .content p {
+.resume-content .content .ul li {
   font-size: 16px;
 }
 
