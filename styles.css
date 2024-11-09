@@ -547,8 +547,8 @@ section {
 /* Each skill box */
 .box {
   position: relative;
-  width: 120px;
-  height: 120px;
+  /* width: 120px;
+  height: 120px; */
   margin: 10px 0;
   flex: 1 1 15rem;
 }
