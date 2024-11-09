@@ -599,10 +599,10 @@ section {
     box-shadow: mediumturquoise;
   }
 }
-.pointsMarked {
+/* .pointsMarked {
   animation: glow 0.04s linear forwards;
   animation-delay: calc(var(--i)*0.05s);
-}
+} */
 
 .portfolio {
   background: var(--second-bg-color);
