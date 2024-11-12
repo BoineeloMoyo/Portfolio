@@ -594,12 +594,18 @@ section {
   gap: 2.5rem;
 }
 
-
-.portfolio-container .portfolio-box .btn {
-  margin-top: 2rem;
-  cursor: pointer;
-  position: absolute;
+/* Center the "See More Projects" button */
+.btn-container {
+  grid-column: span 3; /* Ensures the button spans across the full width in a 3-column grid */
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem; /* Adjusts spacing above the button */
 }
+
+.btn-container .btn {
+  padding: 1rem 2rem; /* Adds padding for better button appearance */
+}
+
 
 .portfolio-container .portfolio-box {
   position: relative;
