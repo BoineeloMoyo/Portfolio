@@ -347,12 +347,6 @@ section {
   gap: 2rem;
 }
 
-.proficiency-container .btn {
-  margin-top: 2rem;
-  cursor: pointer;
-  align-items: center;
-}
-
 .proficiency-container .proficiency-box {
   flex: 1 1 30rem;
   background: var(--second-bg-color);
@@ -598,6 +592,13 @@ section {
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
   gap: 2.5rem;
+}
+
+
+.portfolio-container .btn {
+  margin-top: 2rem;
+  cursor: pointer;
+  align-items: center;
 }
 
 .portfolio-container .portfolio-box {
