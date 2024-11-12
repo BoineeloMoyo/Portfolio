@@ -595,7 +595,7 @@ section {
 }
 
 
-.portfolio-container .btn {
+.portfolio-container .portfolio-box .btn {
   margin-top: 2rem;
   cursor: pointer;
   align-items: center;
