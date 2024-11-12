@@ -596,14 +596,14 @@ section {
 
 /* Center the "See More Projects" button */
 .btn-container {
-  grid-column: span 3; /* Ensures the button spans across the full width in a 3-column grid */
+  grid-column: span 3; 
   display: flex;
   justify-content: center;
-  margin-top: 2rem; /* Adjusts spacing above the button */
+  margin-top: 2rem; 
 }
 
 .btn-container .btn {
-  padding: 1rem 2rem; /* Adds padding for better button appearance */
+  padding: 1rem 2rem; 
 }
 
 
