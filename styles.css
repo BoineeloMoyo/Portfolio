@@ -347,6 +347,12 @@ section {
   gap: 2rem;
 }
 
+.proficiency-container .btn {
+  margin-top: 2rem;
+  cursor: pointer;
+  align-items: center;
+}
+
 .proficiency-container .proficiency-box {
   flex: 1 1 30rem;
   background: var(--second-bg-color);
