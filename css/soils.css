@@ -19,29 +19,10 @@
   --main-color: #0ef;
 }
 
-/* Base Styling */
-html {
-  font-size: 62.5%;
-  overflow-x: hidden;
-}
-
+/* General layout and styling */
 body {
   background: var(--bg-color);
   color: var(--text-color);
-}
-
-/* Section Styling */
-section {
-  min-height: 100vh;
-  padding: 10rem 9%;
-}
-
-/* General layout and styling */
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  margin: 0;
-  padding: 0;
 }
 
 .project-container {
