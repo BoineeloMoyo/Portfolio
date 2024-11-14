@@ -28,18 +28,19 @@ body {
 .project-container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 20px;
+  padding-top: 50px;
   text-align: center;
+  padding-bottom: 5rem;
 }
 
 .project-title {
-  font-size: 2.5rem;
+  font-size: 28px;
   font-weight: bold;
-  padding-bottom: 50px;
-  padding-top: 5rem;
+  color: var(--main-color);
+  padding: 20px;
+  /* padding-top: 5rem; */
+  margin: 32px 0 16px 30px;
 }
-
-
 /* Grid styling */
 .project-grid {
   display: grid;
