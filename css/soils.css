@@ -35,3 +35,72 @@ section {
   min-height: 100vh;
   padding: 10rem 9%;
 }
+
+/* General layout and styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.project-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.project-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+/* Grid styling */
+.project-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+/* Block styling */
+.block {
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Floating effect */
+.block:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Left and right block styling */
+.left-block {
+  grid-column: 1;
+}
+
+.right-block {
+  grid-column: 2;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .project-grid {
+      grid-template-columns: 1fr;
+  }
+  .left-block, .right-block {
+      grid-column: 1;
+  }
+}
