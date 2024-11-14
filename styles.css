@@ -375,10 +375,10 @@ section {
   font-size: 1.4rem;
   margin: 1rem 0 3rem;
 }
+
 .proficiency-container .proficiency-box:hover {
   border-color: var(--main-color);
   transform: scale(1.02);
-
 }
 /* Skills Section CSS styling */
 .skills {
