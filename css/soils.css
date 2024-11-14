@@ -25,6 +25,37 @@ body {
   color: var(--text-color);
 }
 
+/* Header Section */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 25px 9%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  visibility: hidden;
+  opacity: 0;
+  animation: show-content 1.5s linear forwards;
+  animation-delay: 1.2s;
+}
+
+.header .sticky {
+  border-bottom: .1rem solid rgba(0, 0, 0, .2);
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--main-color);
+}
+@media (max-width: 991px) {
+  .header {
+    padding: 2rem 3%;
+  }}
+
 .project-container {
   max-width: 1200px;
   margin: 0 auto;
