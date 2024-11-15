@@ -939,23 +939,22 @@ section {
   color: var(--main-color);
 }
 
-.resume-content .content .ul {
+/* .resume-content .content .ul {
   list-style-type: disc;
   color: var(--main-color);
-}
+} */
 
-
-.resume-content .content ul li {
+.resume-content .content p {
   font-size: 13px;
   margin-bottom: 8px;
   padding-right: 10px;
 }
 
-/* Color the bullet itself */
+/* Color the bullet itself
 .resume-content .content ul li::marker {
   color: var(--main-color); 
   font-size: 2rem;
-}
+} */
 
 .resume-column .animate {
   position: absolute;
