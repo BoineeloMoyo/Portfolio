@@ -936,7 +936,7 @@ section {
 }
 
 .resume-content .content h4 {
-  font-size: 14px;
+  font-size: 15px;
   margin: 6px 0;
   color: var(--main-color);
 }
@@ -947,7 +947,7 @@ section {
 } */
 
 .resume-content .content p {
-  font-size: 13px;
+  font-size: 14px;
   margin-bottom: 8px;
   padding-right: 10px;
 }
