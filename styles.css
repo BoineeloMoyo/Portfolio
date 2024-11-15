@@ -859,7 +859,7 @@ section {
   background-color: var(--second-bg-color);
   align-items: center;
   min-height: 100vh;
-  padding: 2rem 0;
+  padding: 2rem;
 }
 
 /* Center the heading */
@@ -876,6 +876,7 @@ section {
   column-gap: 64px;
   flex-wrap: wrap;
   align-items: center;
+  padding: 0 4%;
 }
 
 .resume-row .resume-column {
