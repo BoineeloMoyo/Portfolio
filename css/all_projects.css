@@ -146,10 +146,6 @@ body {
   transition: opacity 0.3s ease;
 } 
 
-/* .project-box:hover .project-layer {
-  opacity: 1;
-} */
-
 .project-layer h4 {
   margin-bottom: 10px;
   font-size: 1.5rem;
@@ -166,10 +162,6 @@ body {
   font-size: 1.2rem;
   transition: color 0.3s ease;
 }
-
-/* .project-layer a:hover {
-  color: #07c;
-} */
 
 /* Hide/Show Categories */
 .project-grid {
