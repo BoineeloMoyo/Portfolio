@@ -152,12 +152,11 @@ body {
   cursor: pointer;
 }
 
-.nav-btn:hover {
+.project-box .btn:hover {
   background: transparent;
   color: var(--main-color);
   box-shadow: none;
 }
-
 
 .project-layer a {
   color: var(--main-color, #0ef);
