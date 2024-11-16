@@ -112,8 +112,10 @@ body {
   overflow: hidden;
   border-radius: 10px;
   background-color: var(--second-bg-color); 
+  background: linear-gradient(135deg, var(--main-color), var(--second-bg-color));
   text-align: center;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
 }
 
 .project-box img {
