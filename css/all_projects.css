@@ -96,11 +96,15 @@ body {
   box-shadow: none;
 }
 
+.project {
+  background: var(--second-bg-color);
+  margin-bottom: -25rem;
+}
 /* project Styling */
 .project-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  gap: 25px;
 }
 
 .project-box {
@@ -123,12 +127,13 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.7);
+  background: linear-gradient(rgba(0, 0, 0, .1), var(--main-color));
   color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   opacity: 0;
   transition: opacity 0.3s ease;
 } 
