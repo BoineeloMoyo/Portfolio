@@ -91,7 +91,7 @@ body {
 }
 
 .nav-btn:hover {
-  background: var(--second-bg-color);
+  background: transparent;
 }
 
 .btn {
