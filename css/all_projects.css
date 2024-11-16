@@ -113,6 +113,13 @@ body {
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
+/* .project-container .project-box {
+  position: relative;
+  border-radius: 2rem;
+  box-shadow: 0 0 1rem var(--bg-color);
+  overflow: hidden;
+  display: flex;
+} */
 
 .project-box img {
   width: 100%;
@@ -139,9 +146,9 @@ body {
   transition: opacity 0.3s ease;
 } 
 
-.project-box:hover .project-layer {
+/* .project-box:hover .project-layer {
   opacity: 1;
-}
+} */
 
 .project-layer h4 {
   margin-bottom: 10px;
@@ -160,9 +167,9 @@ body {
   transition: color 0.3s ease;
 }
 
-.project-layer a:hover {
+/* .project-layer a:hover {
   color: #07c;
-}
+} */
 
 /* Hide/Show Categories */
 .project-grid {
