@@ -113,13 +113,6 @@ body {
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
-/* .project-container .project-box {
-  position: relative;
-  border-radius: 2rem;
-  box-shadow: 0 0 1rem var(--bg-color);
-  overflow: hidden;
-  display: flex;
-} */
 
 .project-box img {
   width: 100%;
@@ -143,7 +136,7 @@ body {
   align-items: center;
   text-align: center;
   opacity: 0;
-  transition: opacity 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 } 
 
 .project-layer h4 {
