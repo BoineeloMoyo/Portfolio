@@ -97,7 +97,7 @@ body {
 }
 
 /* project Styling */
-/* .project-container {
+.project-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
@@ -131,8 +131,8 @@ body {
   align-items: center;
   opacity: 0;
   transition: opacity 0.3s ease;
-} */
-/* 
+} 
+
 .project-box:hover .project-layer {
   opacity: 1;
 }
@@ -156,107 +156,14 @@ body {
 
 .project-layer a:hover {
   color: #07c;
-} */
+}
 
-/* Hide/Show Categories
+/* Hide/Show Categories */
 .project-grid {
   display: none;
 }
 
 .project-grid.active {
   display: block;
-} */
-
-
-
-.project {
-  background: var(--second-bg-color);
-  margin-bottom: -25rem;
 }
 
-.project h2 {
-  margin-bottom: 4rem;
-}
-
-.project-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  align-items: center;
-  gap: 2.5rem;
-}
-
-/* Center the "See More Projects" button */
-.btn-container {
-  grid-column: span 3; 
-  display: flex;
-  justify-content: center;
-  margin-top: 2rem; 
-}
-
-.btn-container .btn {
-  padding: 1rem 2rem; 
-}
-
-
-.project-container .project-box {
-  position: relative;
-  border-radius: 2rem;
-  box-shadow: 0 0 1rem var(--bg-color);
-  overflow: hidden;
-  display: flex;
-}
-
-.project-box img {
-  width:  100%;
-  transition: .5s ease;
-}
-
-.project-box:hover img {
-  transform: scale(1.1);
-}
-
-.project-box .project-layer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  height: 100%;
-  background: linear-gradient(rgba(0, 0, 0, .1), var(--main-color));
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  padding: 0 4rem;
-  transform: translateY(100%);
-  transition: .5s ease;
-
-}
-
-.project-box:hover .project-layer {
-  transform: translateY(0);
-}
-
-.project-layer h4 {
-  font-size: 3rem;
-}
-
-.project-layer p {
-  font-size: 1rem;
-  margin: .3rem 0 1rem;
-}
-
-.project-layer a {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  width: 5rem;
-  height: 5rem;
-  background: var(--text-color);
-  border-radius: 50%;
-
-}
-
-.project-layer a i {
-  font-size: 2rem;
-  color: var(--second-bg-color);
-}
