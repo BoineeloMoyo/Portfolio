@@ -111,6 +111,8 @@ body {
   position: relative;
   overflow: hidden;
   border-radius: 10px;
+  background-color: var(--second-bg-color); 
+  text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
@@ -120,6 +122,7 @@ body {
   display: block;
   object-fit: cover;
   border-radius: 20px;
+  
 }
 
 .project-layer {
@@ -141,7 +144,7 @@ body {
 
 .project-box h4 {
   margin: 10px 0; 
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: bold;
   color: var(--text-color); 
 }
