@@ -81,12 +81,49 @@ body {
   padding: 10px 20px;
   font-size: 1.5rem;
   background: var(--main-color, #0ef);
-  color: #fff;
+  color: #081b29;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 
 .nav-btn:hover {
-  background: #07c;
+  background: var(--second-bg-color);
+}
+
+.navbar {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  padding: 1rem 3%;
+  background: var(--bg-color);
+  border-top: .1rem solid rgba(0, 0, 0, .2);
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+  display: none;
+}
+
+.navbar.active {
+  display: block;
+}
+
+.navbar a {
+  display: block;
+  font-size: 2rem;
+  margin: 3rem 0;
+
+}
+
+.navbar a {
+  list-style: none;
+  font-size: 20px;
+  color: var(--text-color);
+  font-weight: 500;
+  margin-left: 35px;
+  transition: .5s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  color: var(--main-color);
 }
