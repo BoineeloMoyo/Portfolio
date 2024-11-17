@@ -103,7 +103,7 @@ section h2 {
   color: var(--main-color);
 }
 
-
+/* Project Grid Styling */
 .project {
     max-width: 1200px;
     margin: 0 auto;
@@ -111,7 +111,7 @@ section h2 {
     text-align: center;
     padding-bottom: 5rem;
   }
-/* project Styling */
+
 .project-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
