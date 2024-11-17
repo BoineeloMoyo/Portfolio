@@ -181,6 +181,11 @@ section h2 {
   padding: 8px;
   text-align: center;
 }
+.publication-table td i {
+  font-size: 2rem;
+  color: var(--main-color);
+
+}
 
 .publication-table th {
   background-color: var(--second-bg-color);
