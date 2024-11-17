@@ -88,6 +88,7 @@ body {
   letter-spacing: .1rem;
 }
 
+/* Section Titles */
 .nav-btn:hover {
   background: transparent;
   color: var(--main-color);
