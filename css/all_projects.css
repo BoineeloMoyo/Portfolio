@@ -69,6 +69,7 @@ body {
   justify-content: center;
   gap: 20px;
   padding: 15px;
+  position: sticky;
   margin-bottom: 40px;
 }
 
