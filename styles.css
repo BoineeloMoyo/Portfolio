@@ -469,6 +469,23 @@ section {
   animation: css 9s;
 }
 
+@keyframes qgis {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 91%;
+  }
+}
+@keyframes gee {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 89%;
+  }
+}
+
 @keyframes r {
   0% {
     width: 0%;
