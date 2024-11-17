@@ -436,29 +436,37 @@ section {
   box-shadow: rgb(121, 243, 243);
 }
 
+.skill-bar .bar .qgis {
+  width: 91%;
+  animation: qgis 2s;
+}
+.skill-bar .bar .gee {
+  width: 89%;
+  animation: gee 3s;
+}
 .skill-bar .bar .r {
   width: 85%;
-  animation: r 2s;
+  animation: r 4s;
 }
 .skill-bar .bar .python {
   width: 80%;
-  animation: python 3s;
+  animation: python 5s;
 }
 .skill-bar .bar .javascript {
   width: 79%;
-  animation: javascript 4s;
+  animation: javascript 6s;
 }
 .skill-bar .bar .postgres-sql {
   width: 78%;
-  animation: postgres-sql 5s;
+  animation: postgres-sql 7s;
 }
 .skill-bar .bar .html {
   width: 75%;
-  animation: html 6s;
+  animation: html 8s;
 }
 .skill-bar .bar .css {
   width: 60%;
-  animation: css 7s;
+  animation: css 9s;
 }
 
 @keyframes r {
