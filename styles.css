@@ -599,7 +599,7 @@ section {
 
 
 .container .circle .number span {
-  font-size: 0.5em;
+  font-size: 0.9em;
   font-weight: 500;
 }
 
@@ -610,7 +610,7 @@ section {
   z-index: 10;
   margin-top: 8px;
   font-weight: 500;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   text-align: center;
   line-height: 0.6em;
 }
