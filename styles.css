@@ -509,7 +509,7 @@ section {
     width: 60%;
   }
 }
-
+/* Design the pie charts under Professional */
 .professional {
   display: grid;
   grid-template-columns: 1fr 1fr;
