@@ -603,6 +603,17 @@ section {
   }
 }
 
+@media (max-width: 768px) {
+  .skill-main {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .skill-left {
+      order: 1;
+      width: 100%;
+  }
+
 /* Portfolio section Design - Projects done layout */
 
 .portfolio {
