@@ -19,12 +19,6 @@
   --main-color: #0ef;
 }
 
-/* Base Styling */
-html {
-  font-size: 62.5%;
-  overflow-x: hidden;
-}
-
 body {
   background: var(--bg-color);
   color: var(--text-color);
@@ -69,8 +63,8 @@ body {
   color: var(--main-color);
 } 
 
-/* Navigation */
-.project-navigation {
+/* Navigation Bar*/
+.navigation {
   display: flex;
   justify-content: center;
   gap: 20px;
