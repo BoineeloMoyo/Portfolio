@@ -617,6 +617,12 @@ section {
   }
 }
 
+@media (max-width: 617px) {
+  .skill-main {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* Portfolio section Design - Projects done layout */
 
 .portfolio {
