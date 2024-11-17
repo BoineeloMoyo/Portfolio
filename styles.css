@@ -516,6 +516,93 @@ section {
 }
 
 
+.container {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 20px;
+}
+
+.container .circle {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  text-align: center;
+  gap: 10px;
+}
+
+.container .circle::before{
+  content: '';
+  position: absolute;
+  inset: 5px;
+  border-radius: 50%;
+  background-color: #222;
+  opacity: 0.8;
+}
+
+.container .circle::after {
+  content: '';
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  background: #333;
+  border: 15px solid #4d4c51;
+  border-radius: 50%;
+  box-shadow: inset 0 5px 10px rgba(0, 0, 0, 0.25),
+  0 10px 10px rgba(0, 0, 0, 0.75),
+  0 -2px 2px rgba(255, 255, 255, 0.5),
+  inset 0 4px 2px rgba(0, 0, 0, 0.25),
+  inset 0 -2px 2px rgba(255, 255, 255, 0.5);
+}
+
+.container .circle .number {
+  position: relative;
+  color: var(--text-color);
+  z-index: 10;
+  line-height: 1em;
+  font-size: 2em;
+}
+
+
+.container .circle .number span {
+  font-size: 0.5em;
+  font-weight: 500;
+}
+
+
+.container .circle h4 {
+  position: relative;
+  color: var(--text-color);
+  z-index: 10;
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 0.8rem;
+  text-align: center;
+  line-height: 0.6em;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .container {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+      grid-template-columns: 1fr; /* Single column on very small screens */
+  }
+}
+
 /* Portfolio section Design - Projects done layout */
 
 .portfolio {
