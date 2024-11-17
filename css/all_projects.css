@@ -104,22 +104,16 @@ section h2 {
 }
 
 /* Project Grid Styling */
-.project {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding-top: 50px;
-    text-align: center;
-    padding-bottom: 5rem;
-  }
-
-.project-container {
+.project-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 25px;
+  padding: 20px;
 }
 
 .project-box {
   position: relative;
+  padding: 10px;
   overflow: hidden;
   border-radius: 10px;
   border: 3px solid var(--main-color);
@@ -130,7 +124,7 @@ section h2 {
 
 .project-box img {
   width: 100%;
-  height: 300px;
+  height: 200px;
   display: block;
   object-fit: cover;
   border-radius: 20px;
@@ -171,12 +165,33 @@ section h2 {
 }
 
 
-/* Hide/Show Categories */
-.project-grid {
-  display: none;
+/* Publication Table */
+.publication-table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
 }
 
-.project-grid.active {
+.publication-table th, .publication-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.publication-table th {
+  background-color: var(--main-color);
+  color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .project-grid {
+      grid-template-columns: 1fr;
+  }
+}
+
+
+.project-grid .active {
   display: block;
 }
 
