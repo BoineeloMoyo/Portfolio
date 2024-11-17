@@ -580,10 +580,10 @@ section {
 
 
 .container .circle h4 {
-  position: relative;
+  position: absolute;
   color: var(--text-color);
   z-index: 10;
-  margin-top: 10px;
+  margin-top: 8px;
   font-weight: 500;
   font-size: 0.8rem;
   text-align: center;
