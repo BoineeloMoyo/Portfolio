@@ -515,70 +515,6 @@ section {
   grid-template-columns: 1fr 1fr;
 }
 
-.box {
-  position: relative;
-  margin: 10px 0;
-  flex: 1 1 15rem;
-}
-
-.box .text {
-  text-align: center;
-  color: #fff;
-  font-size: 1rem;
-}
-
-.box .text big {
-  font: 400;
-  letter-spacing: 1px;
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.box .text small {
-  display: block;
-  font-weight: 600;
-}
-
-.circle {
-  width: 100%;
-  height: 120px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 2px solid #fff;
-}
-.points {
-  background-color: #ff0000; /* Red color to check visibility */
-  outline: 1px solid black; /* Border for visibility */
-}
-
-.circle .points {
-  width: 2px;
-  height: 10px;
-  background-color: var(--second-bg-color);
-  position: absolute;
-  border-radius: 3px;
-  transform: rotate(calc(var(--i)*var(--rot))) translateY(-45px);
-  /* animation: glow 0.04s linear forwards;
-  animation-delay: calc(var(--i)*0.05s); */
-}
-
-@keyframes glow {
-  0% {
-    background: var(--bg-color);
-    box-shadow: none;
-  }
-  100% {
-    background: var(--main-color);
-    box-shadow: mediumturquoise;
-  }
-}
-.pointsMarked {
-  animation: glow 0.04s linear forwards;
-  animation-delay: calc(var(--i)*0.05s);
-}
 
 .portfolio {
   background: var(--second-bg-color);
@@ -857,13 +793,6 @@ section {
   min-height: 100vh;
   padding: 2rem;
 }
-
-/* Center the heading */
-/* .resume h2.heading {
-  font-size: 5rem;
-  text-align: center;
-  margin-bottom: 3rem; 
-} */
 
 .resume .resume-row {
   display: flex;
