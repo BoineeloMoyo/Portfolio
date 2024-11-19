@@ -24,6 +24,96 @@ body {
   color: var(--text-color);
 }
 
+/* ABOUT SECTION */
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background: var(--bg-color);
+}
+
+.about-img .img-box {
+  width: 32vw;
+  position: relative;
+  height: 32vw;
+  border-radius: 50%;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.about-img .img-box::before,
+.about-img .img-box::after {
+  content: '';
+  position: absolute;
+  width: calc(32vw + 20px);
+  height: calc(32vw + 20px);
+  background: conic-gradient(transparent, transparent, transparent, var(--main-color));
+  transform: rotate(0deg);
+  animation: rotate-border 10s linear infinite;
+}
+
+.about-img .img-box::after {
+  animation-delay: -5s;
+}
+
+.about-img .img-box .img-item {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #081b29;
+  border-radius: 50%;
+  border: .1px solid #081b29;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.about-img .img-box .img-item img {
+  position: absolute;
+  top: 30px;
+  display: block;
+  width: 105%;
+  object-fit: cover;
+  mix-blend-mode: lighten;
+}
+
+.about-content a {
+  color: var(--main-color); 
+  text-decoration: underline;
+}
+
+.about-content a:hover {
+  color: #53b8fc; 
+}
+
+.heading {
+  text-align: center;
+  font-size: 45px;
+}
+
+.about-content h2 {
+  text-align: left;
+  line-height: 1.2;
+}
+
+.about-content h3 {
+  font-size: 26px;
+}
+
+.about-content p {
+  font-size: 16px;
+  margin: 20px 0 30px;
+}
+
+.proficiency h2 {
+  margin-bottom: 5rem;
+}
+
 /* General Section Styling */
 .about .skills {
   display: flex;
