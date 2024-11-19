@@ -948,6 +948,7 @@ section {
   min-height: 100vh;
   padding: 2rem;
   margin-top: 40px;
+  gap: 2rem;
 }
 
 .resume .resume-row {
