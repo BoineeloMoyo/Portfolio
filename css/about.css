@@ -35,3 +35,81 @@ body {
   color: var(--text-color);
   padding: 2rem;
 }
+
+.about-info {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.about-info li {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.about-info strong {
+  color: var(--main-color);
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: var(--text-color);
+  background: var(--main-color);
+  border-radius: 5px;
+  margin-top: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #53b8fc;
+}
+
+/* Skills Section Styling */
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.skills-container .circle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #222;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  position: relative;
+}
+
+.skills-container h4 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .skills-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .skills-container {
+    grid-template-columns: 1fr;
+  }
+
+  .about {
+    flex-direction: column;
+  }
+
+  .about-img {
+    margin-bottom: 20px;
+  }
+}
