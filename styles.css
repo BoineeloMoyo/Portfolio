@@ -37,6 +37,11 @@ section {
   padding: 10rem 9%;
 }
 
+.heading {
+  text-align: center;
+  font-size: 45px;
+}
+
 /* Header Section */
 .header {
   position: fixed;
@@ -830,14 +835,7 @@ section {
     margin-top: 4rem;
   }
 
-  .about {
-    flex-direction: column-reverse;
-  }
 
-  .about img {
-    width: 70vw;
-    margin-top: 4rem;
-  }
 
   .proficiency h2 {
     margin-bottom: 3rem;

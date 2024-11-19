@@ -103,11 +103,31 @@ body {
 
 .about-content h3 {
   font-size: 26px;
+  color: var(--main-color);
 }
 
 .about-content p {
   font-size: 16px;
   margin: 20px 0 30px;
+  justify-content: center;
+}
+
+/* .about {
+  flex-direction: column-reverse;
+} */
+
+.about img {
+  width: 70vw;
+  margin-top: 4rem;
+}
+
+.about-img {
+  width: 90vw;
+}
+@keyframes rotate-border {
+  100% {
+    transform: rotate(360deg)
+  }
 }
 
 /* General Section Styling */
