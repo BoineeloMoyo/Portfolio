@@ -675,7 +675,7 @@ section {
 /* Portfolio section Design - Projects done layout */
 .portfolio {
   background: var(--second-bg-color);
-  margin-bottom: -25rem;
+  /* margin-bottom: -25rem; */
 }
 
 .portfolio h2 {
@@ -947,6 +947,7 @@ section {
   align-items: center;
   min-height: 100vh;
   padding: 2rem;
+  margin-top: 40px;
 }
 
 .resume .resume-row {
