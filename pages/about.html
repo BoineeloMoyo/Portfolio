@@ -87,5 +87,30 @@
       </div>
     </div>
   </section>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+          let circles = document.querySelectorAll('.circle');
+          circles.forEach(function (progress) {
+              let degree = 0;
+              let targetDegree = parseInt(progress.getAttribute('data-degree'));
+              let color = progress.getAttribute('data-color');
+              let number = progress.querySelector('.number');
+
+              let interval = setInterval(function () {
+                  degree++;
+                  if (degree > targetDegree) {
+                      clearInterval(interval);
+                      return;
+                  }
+                  progress.style.background = `conic-gradient(${color} ${degree}%, #222 0%)`;
+                  number.innerHTML = degree + '<span>%</span>';
+                  number.style.color = color;
+              }, 20); // Adjusted speed for better effect
+          });
+      });
+  </script>
+
+  
 </body>
 </html>
