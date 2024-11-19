@@ -24,3 +24,14 @@ body {
   color: var(--text-color);
 }
 
+/* General Section Styling */
+.about .skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background: var(--bg-color);
+  color: var(--text-color);
+  padding: 2rem;
+}
