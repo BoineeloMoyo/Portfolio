@@ -139,7 +139,14 @@
   max-width: 1200px;
 }
 
-.skills-container .circle {
+.circle-container {
+  display: flex;
+  flex-direction: column; /* Arrange circle and label vertically */
+  align-items: center; /* Center align the content */
+  text-align: center;
+}
+
+.circle {
   position: relative;
   display: flex;
   justify-content: center;
@@ -152,6 +159,9 @@
   gap: 10px;
 }
 
+.number {
+  
+}
 .skills-container h4 {
   text-align: center;
   margin-top: 10px;
