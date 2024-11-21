@@ -90,6 +90,24 @@
   margin-right: 5px; /* Space between "Based in:" and value */
 }
 
+.about-info i {
+  font-size: 1.2rem; /* Icon size */
+  margin-left: 8px; /* Space between text and icon */
+  color: var(--main-color);
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .about-info {
+    flex-direction: column; /* Stack items vertically */
+    gap: 1rem; /* Reduce spacing between items */
+  }
+
+  .about-info li {
+    justify-content: flex-start; /* Align items to the left */
+  }
+}
+
 .btn {
   display: inline-block;
   padding: 10px 20px;
