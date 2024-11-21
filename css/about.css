@@ -80,9 +80,9 @@
 
 .about-info li {
   display: flex;
-  align-items: center; /* Center align icons and text */
-  font-size: 1rem;
-  margin: 0; /* Remove individual margins */
+  align-items: center; 
+  font-size: 1.5rem;
+  margin: 0; 
 }
 
 .about-info strong {
