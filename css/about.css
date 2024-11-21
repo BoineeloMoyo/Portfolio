@@ -37,18 +37,11 @@
   justify-content: center;
 }
 
-/* .about {
-  flex-direction: column-reverse;
-} */
 
 .about img {
   width: 70vw;
   margin-top: 4rem;
 }
-/* 
-.about-img {
-  width: 90vw;
-} */
 
 @keyframes rotate-border {
   100% {
@@ -221,11 +214,6 @@
       gap: 20px; /* Slightly reduce the gap */
   }
 
-  .circle {
-      width: 150px; /* Reduce circle size */
-      height: 150px;
-  }
-
   .number {
       font-size: 1.5em; /* Adjust font size for numbers */
   }
@@ -238,13 +226,8 @@
 /* Mobile screens and smaller (max-width: 480px) */
 @media (max-width: 480px) {
   .skills-container {
-      grid-template-columns: 1fr; /* Single column */
-      gap: 20px; /* Space between rows */
-  }
-
-  .circle {
-      width: 120px; /* Further reduce circle size */
-      height: 120px;
+      grid-template-columns: 1fr; 
+      gap: 20px; 
   }
 
   .number {
