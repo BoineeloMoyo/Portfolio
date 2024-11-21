@@ -87,6 +87,7 @@
 
 .about-info strong {
   color: var(--main-color);
+  margin-right: 5px; /* Space between "Based in:" and value */
 }
 
 .btn {
