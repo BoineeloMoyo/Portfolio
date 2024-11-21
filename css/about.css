@@ -78,10 +78,11 @@
   gap: 2rem; 
 }
 
-
 .about-info li {
+  display: flex;
+  align-items: center; /* Center align icons and text */
   font-size: 1rem;
-  margin: 10px 0;
+  margin: 0; /* Remove individual margins */
 }
 
 .about-info strong {
