@@ -87,12 +87,12 @@
 
 .about-info strong {
   color: var(--main-color);
-  margin-right: 5px; /* Space between "Based in:" and value */
+  margin-right: 5px; 
 }
 
 .about-info i {
-  font-size: 1.2rem; /* Icon size */
-  margin-left: 8px; /* Space between text and icon */
+  font-size: 1.2rem; 
+  margin-left: 8px; 
   color: var(--main-color);
 }
 
