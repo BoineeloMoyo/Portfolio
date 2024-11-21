@@ -125,14 +125,6 @@
 }
 
 /* Skills Section Styling */
-/* .skills-container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
-  width: 100%;
-  max-width: 1200px;
-}
-
 .skills-container .circle {
   display: flex;
   flex-direction: column;
@@ -143,8 +135,9 @@
   width: 150px;
   height: 150px;
   position: relative;
+  gap: 10px;
 }
- */
+
 .skills-container h4 {
   text-align: center;
   margin-top: 10px;
@@ -159,25 +152,14 @@
 .skills-container {
   position: relative;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 30px;
   padding: 20px;
-}
-
-.skills-container .circle {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  text-align: center;
-  gap: 10px;
+  width: 100%;
+  max-width: 1200px;
 }
 
 .skills-container .circle::before{
