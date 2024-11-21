@@ -68,11 +68,16 @@
   padding: 2rem;
 }
 
+/* About Info Styling */
 .about-info {
   list-style: none;
   padding: 0;
   margin: 20px 0;
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 2rem; 
 }
+
 
 .about-info li {
   font-size: 1rem;
