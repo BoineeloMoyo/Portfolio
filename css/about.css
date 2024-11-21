@@ -141,8 +141,8 @@
 
 .circle-container {
   display: flex;
-  flex-direction: column; /* Arrange circle and label vertically */
-  align-items: center; /* Center align the content */
+  flex-direction: column; 
+  align-items: center; 
   text-align: center;
 }
 
@@ -208,7 +208,7 @@
   z-index: 10;
   margin-top: 8px;
   font-weight: 500;
-  font-size: 0.9rem;
+  font-size: 1.5rem;
   text-align: center;
   line-height: 0.6em;
 }
