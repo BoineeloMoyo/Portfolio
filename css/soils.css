@@ -121,3 +121,10 @@ body {
       grid-column: 1;
   }
 }
+/* Style the text */
+
+.left-block h2 {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--main-color);
+}
