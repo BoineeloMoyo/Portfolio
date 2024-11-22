@@ -168,6 +168,7 @@ body {
   content: "•"; 
   color: var(--main-color); 
   font-weight: bold; 
+  font-size: 20px;
   display: inline-block;
   width: 1em;
   margin-left: 1em;
