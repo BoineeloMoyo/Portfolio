@@ -127,4 +127,9 @@ body {
   font-size: 18px;
   font-weight: bold;
   color: var(--main-color);
+  justify-content: center;
+}
+
+.left-block .ul li {
+  font-size: 18px;
 }
