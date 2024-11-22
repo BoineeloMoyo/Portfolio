@@ -133,9 +133,9 @@ body {
 
 /* Style for the Paragraph */
 .left-block p {
-  font-size: 16px; 
+  font-size: 15px; 
   line-height: 1.6; 
-  text-align: left; 
+  text-align: justify; 
   margin-bottom: 20px; 
 }
 
@@ -157,17 +157,18 @@ body {
 
 .objectives li {
   margin-bottom: 10px; 
-  font-size: 16px; /* Adjust font size */
-  line-height: 1.6; /* Adjust line height */
+  font-size: 15px; 
+  line-height: 1.6; 
+  text-align: left;
   position: relative;
 }
 
 /* Add a custom bullet point for each list item */
 .objectives li::before {
-  content: "•"; /* Custom bullet */
-  color: var(--main-color); /* Bullet color */
-  font-weight: bold; /* Make the bullet bold */
+  content: "•"; 
+  color: var(--main-color); 
+  font-weight: bold; 
   display: inline-block;
   width: 1em;
-  margin-left: -1em;
+  margin-left: 1em;
 }
