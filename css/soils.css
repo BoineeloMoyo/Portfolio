@@ -148,6 +148,26 @@ body {
 }
 
 
-.left-block .ul li {
-  font-size: 18px;
+/* Style for the Objectives Section Title */
+.objectives ul {
+  list-style: none; 
+  padding: 0;
+  margin: 0;
+}
+
+.objectives li {
+  margin-bottom: 10px; 
+  font-size: 16px; /* Adjust font size */
+  line-height: 1.6; /* Adjust line height */
+  position: relative;
+}
+
+/* Add a custom bullet point for each list item */
+.objectives li::before {
+  content: "•"; /* Custom bullet */
+  color: var(--main-color); /* Bullet color */
+  font-weight: bold; /* Make the bullet bold */
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
 }
