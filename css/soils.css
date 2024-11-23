@@ -165,6 +165,15 @@ body {
   margin-bottom: 20px; 
 }
 
+.equation {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--main-color); /* Highlight using the main color */
+  text-align: center; /* Center the equation */
+  margin: 16px 0; /* Add spacing around the equation */
+}
+
+
 /* Style for Objectives Title (H3) */
 .objectives h3 {
   font-size: 16px; 
