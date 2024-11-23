@@ -217,7 +217,7 @@ body {
 
 .results-images {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Flexible columns */
+  grid-template-columns: repeat(4, 1fr); 
   gap: 15px;
   margin-bottom: 20px;
 }
