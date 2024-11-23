@@ -175,3 +175,42 @@ body {
 }
 
 /* STYLE FOR THE RESULTS & DISCUSSION SECTION */
+
+.results-discussion {
+  width: 100%;
+  text-align: center;
+  margin: 20px 0;
+  padding: 20px;
+  background-color: var(--second-bg-color);
+  border-radius: 10px;
+}
+
+.results-discussion h2 {
+  font-size: 24px;
+  color: var(--main-color);
+  margin-bottom: 20px;
+}
+
+.results-images {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Flexible columns */
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.results-images img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a shadow for better visuals */
+}
+
+.discussion {
+  text-align: left;
+  line-height: 1.8;
+  font-size: 16px;
+}
+
+.discussion p {
+  margin-bottom: 10px;
+}
