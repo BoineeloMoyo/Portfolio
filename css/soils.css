@@ -73,6 +73,29 @@ body {
   margin: 32px 0 16px 30px;
 }
 
+/* Styling for the list */
+.project-info-list {
+  display: flex; /* Use flexbox for horizontal layout */
+  flex-wrap: wrap; /* Wrap items on smaller screens */
+  justify-content: center; /* Center the list items horizontally */
+  padding: 0;
+  list-style-type: none; /* Remove bullets */
+  margin: 0;
+  gap: 15px; /* Add spacing between items */
+}
+
+/* Style for each list item */
+.project-info-list li {
+  font-size: 16px;
+  color: var(--text-color); /* Use defined text color */
+}
+
+/* Highlight the bold labels */
+.project-info-list li strong {
+  font-weight: bold;
+  color: var(--main-color);
+}
+
 /* Grid styling */
 .project-grid {
   display: grid;
