@@ -124,8 +124,13 @@ body {
 }
 
 /* Left and right block styling */
+/* Left block settings */
 .left-block {
-  grid-column: 1;
+  flex: 2; /* Take up more space compared to the right block */
+  padding: 20px;
+  /* background-color: var(--second-bg-color); */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .right-block {
