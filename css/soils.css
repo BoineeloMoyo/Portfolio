@@ -133,9 +133,15 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* Right block settings (image block) */
 .right-block {
-  grid-column: 2;
+  flex: 1; /* Keep it smaller than the left block */
+  padding: 20px;
+  background-color: var(--second-bg-color);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 
 .image img {
   width: 100%;
