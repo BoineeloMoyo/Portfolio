@@ -57,11 +57,13 @@ body {
   }}
 
 .project-container {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   padding-top: 50px;
   text-align: center;
   padding-bottom: 5rem;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .project-title {
