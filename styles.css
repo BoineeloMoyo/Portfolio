@@ -854,12 +854,6 @@
   }
 }
 
-@keyframes rotate-border {
-  100% {
-    transform: rotate(360deg)
-  }
-}
-
 /* About section key frames */
 @keyframes rotate-border {
   100% {
@@ -882,7 +876,17 @@
 
 @media (max-width: 617px) {
   .portfolio-container {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr; 
+    gap: 1.5rem; 
+  }
+
+  .portfolio-box {
+    margin: 0 auto; 
+    width: 90%; 
+  }
+  
+  .btn-container {
+    grid-column: 1; 
   }
 }
 
