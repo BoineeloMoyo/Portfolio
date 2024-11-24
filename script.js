@@ -27,6 +27,7 @@ window.onscroll = () => {
             });
         };
     });
+    
     /* =======================  Sticky Navbar =================== */
     let header = document.querySelector('header');
 
