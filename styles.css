@@ -870,7 +870,6 @@
   }
 }
 
-
 @keyframes show-right {
   100% {
     width: 0;
@@ -919,5 +918,16 @@
   .footer p {
     text-align: center;
     margin-top: 2rem;
+  }
+}
+/* Media Query for Small Screens */
+@media screen and (max-width: 768px) {
+  .resume .resume-row {
+    grid-template-columns: 1fr; 
+    gap: 32px;
+  }
+  
+  .resume-row .resume-column {
+    width: 100%; /* Full width for each column */
   }
 }
