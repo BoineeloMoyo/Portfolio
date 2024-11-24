@@ -729,12 +729,14 @@
 }
 
 .resume .resume-row {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
   width: 100%;
   justify-content: center;
   column-gap: 64px;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: start;
   padding: 0 4%;
 }
 
