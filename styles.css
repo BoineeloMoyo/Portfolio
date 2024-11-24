@@ -113,6 +113,7 @@
   animation-delay: calc(.1s * var(--i));
 }
 
+/* Style Proficiency and Skills section */
 .proficiency h2 {
   margin-bottom: 5rem;
 }
@@ -468,7 +469,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
-  gap: 2.5rem;
+  gap: 2rem;
   flex-wrap: wrap;
 }
 
