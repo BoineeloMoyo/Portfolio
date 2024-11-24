@@ -469,6 +469,7 @@
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
   gap: 2.5rem;
+  flex-wrap: wrap;
 }
 
 /* Center the "See More Projects" button */
