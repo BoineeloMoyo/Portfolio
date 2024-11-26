@@ -466,6 +466,12 @@
 }
 
 /* Resume Section Styling*/
+
+
+
+/* 
+
+
 .resume {
   display: flex;
   justify-content: center;
@@ -550,18 +556,18 @@
   font-size: 15px;
   margin: 6px 0;
   color: var(--main-color);
-}
+} */
 
 /* .resume-content .content .ul {
   list-style-type: disc;
   color: var(--main-color);
 } */
 
-.resume-content .content p {
+/* .resume-content .content p {
   font-size: 14px;
   margin-bottom: 8px;
   padding-right: 10px;
-}
+} */
 
 /* Color the bullet itself
 .resume-content .content ul li::marker {
@@ -569,7 +575,7 @@
   font-size: 2rem;
 } */
 
-.resume-column .animate {
+/* .resume-column .animate {
   position: absolute;
   top: 0;
   right: 0;
@@ -578,7 +584,7 @@
   background: var(--bg-color);
   animation: show-right 1s ease forwards;
   animation-delay: calc(.3s *var(--i));
-}
+} */
 
 /* Skills Section CSS styling */
 .skills {
