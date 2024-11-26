@@ -4,27 +4,20 @@
   display: flex;
   align-items: center;
   gap: 50px;
-  height: 100vh;
-  padding: 60px 9% 0;
-  color: var(--text-color);
-  visibility: hidden;
-  opacity: 0;
-  animation: show-content 1.5s linear forwards;
-  animation-delay: 1.6s;
 }
 
 .home-info {
-  font-size: 55px;
+  font-size: 4.5rem;
 }
 
 .home-info h3 {
-  font-size: 3.2rem;
+  font-size: 2.8rem;
   font-weight: 700;
 }
 
 .home-info h2 {
   display: inline-block;
-  font-size: 32px;
+  font-size: 3.1rem;
   margin-top: -10px;
 }
 
@@ -151,7 +144,6 @@
     transform: rotate(360deg)
   }
 }
-
 
 /* Animated Bars section */
 .bars-animation {
