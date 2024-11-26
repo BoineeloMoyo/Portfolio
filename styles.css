@@ -876,14 +876,21 @@
   background: transparent;
 }
 
+.resume-detail.about .desc {
+  color: var(--text-color);
+  font-size: 1.4rem;
+  text-align: justify;
+}
+
 .resume-detail.about .resume-item p {
   color: var(--main-color);
+  font-size: 1.6rem;
 }
 
 .resume-detail.about .resume-item p span {
-  color: var(--white-color);
+  color: var(--text-color);
   margin-left: 1rem;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
 }
 
 /* KEY FRAMES FOR THE ENTIRE PROJECT */
