@@ -560,6 +560,10 @@
   color: var(--main-color);
 }
 
+.resume-item .year i {
+  margin-right: 8px;
+}
+
 .resume-item h3 {
   font-size: 1.8rem;
 }
