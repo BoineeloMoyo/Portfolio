@@ -32,18 +32,6 @@ body {
   color: var(--text-color);
 }
 
-/* Section Styling */
-section {
-  min-height: 100vh;
-  padding: 10rem 9%;
-  /* margin-bottom: 1px; */
-}
-
-.heading {
-  text-align: center;
-  font-size: 45px;
-}
-
 /* Header Section */
 .header {
   position: fixed;
@@ -144,3 +132,16 @@ section {
       transform: rotate(360deg)
     }
   }
+
+
+/* Section Styling */
+section {
+  min-height: 100vh;
+  padding: 10rem 9%;
+  /* margin-bottom: 1px; */
+}
+
+.heading {
+  text-align: center;
+  font-size: 45px;
+}
