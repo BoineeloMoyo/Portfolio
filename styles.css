@@ -205,305 +205,6 @@
   border-color: var(--main-color);
   transform: scale(1.02);
 }
-/* Skills Section CSS styling */
-.skills {
-  background: var(--bg-color);
-}
-
-.skill-main {
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  grid-row-gap: 30px;
-  grid-column-gap: 50px;
-}
-.skill-bar {
-  margin-bottom: 2.3rem;
-}
-
-.skill-main h3 {
-  margin-bottom: 2rem;
-  font-size: 26px;
-  text-align: center;
-}
-.main-text h2 {
-  margin-bottom: 2rem;
-  font-size: 32px;
-  text-align: center;
-  color: var(--main-color);
-}
-.main-text span {
-  font-size: 36px;
-  text-align: center;
-  margin-bottom: 2rem;
-}
-
-.skill-left .skill-bar .info {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 10px;
-}
-
-.skill-left .skill-bar .bar {
-  width: 100%;
-  height: 10px;
-  background-color: var(--second-bg-color);
-  border-radius: 25px;
-  margin-top: 10px;
-  position: relative;
-  /* box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); */
-}
-
-.skill-bar .bar span {
-  width: 50%;
-  height: 100%;
-  position: absolute;
-  left: 0;
-  background: var(--main-color);
-  border-radius: 25px;
-  box-shadow: rgb(121, 243, 243);
-}
-
-.skill-bar .bar .qgis {
-  width: 91%;
-  animation: qgis 2s;
-}
-.skill-bar .bar .gee {
-  width: 89%;
-  animation: gee 3s;
-}
-.skill-bar .bar .r {
-  width: 85%;
-  animation: r 4s;
-}
-.skill-bar .bar .python {
-  width: 80%;
-  animation: python 5s;
-}
-.skill-bar .bar .javascript {
-  width: 79%;
-  animation: javascript 6s;
-}
-.skill-bar .bar .postgres-sql {
-  width: 78%;
-  animation: postgres-sql 7s;
-}
-.skill-bar .bar .html {
-  width: 75%;
-  animation: html 8s;
-}
-.skill-bar .bar .css {
-  width: 60%;
-  animation: css 9s;
-}
-
-@keyframes qgis {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 91%;
-  }
-}
-@keyframes gee {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 89%;
-  }
-}
-
-@keyframes r {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 85%;
-  }
-}
-@keyframes python {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 80%;
-  }
-}
-@keyframes javascript {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 79%;
-  }
-}
-@keyframes postgres-sql {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 78%;
-  }
-}
-@keyframes html {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 75%;
-  }
-}
-@keyframes css {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 60%;
-  }
-}
-/* Design the pie charts under Professional */
-.professional {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-.container {
-  position: relative;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 40px;
-  padding: 20px;
-}
-
-.container .circle {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  text-align: center;
-  gap: 10px;
-}
-
-.container .circle::before{
-  content: '';
-  position: absolute;
-  inset: 5px;
-  border-radius: 50%;
-  background-color: #222;
-  opacity: 0.8;
-}
-
-.container .circle::after {
-  content: '';
-  position: absolute;
-  width: 120px;
-  height: 120px;
-  background: #333;
-  border: 15px solid #4d4c51;
-  border-radius: 50%;
-  box-shadow: inset 0 5px 10px rgba(0, 0, 0, 0.25),
-  0 10px 10px rgba(0, 0, 0, 0.75),
-  0 -2px 2px rgba(255, 255, 255, 0.5),
-  inset 0 4px 2px rgba(0, 0, 0, 0.25),
-  inset 0 -2px 2px rgba(255, 255, 255, 0.5);
-}
-
-.container .circle .number {
-  position: relative;
-  color: var(--text-color);
-  z-index: 10;
-  line-height: 1em;
-  font-size: 2em;
-}
-
-
-.container .circle .number span {
-  font-size: 0.9em;
-  font-weight: 500;
-}
-
-.container .circle h4 {
-  position: absolute;
-  color: var(--text-color);
-  z-index: 10;
-  margin-top: 8px;
-  font-weight: 500;
-  font-size: 0.9rem;
-  text-align: center;
-  line-height: 0.6em;
-}
-
-/* Media Queries for Responsiveness */
-/* Tablet screens and smaller (max-width: 768px) */
-@media (max-width: 768px) {
-  .container {
-      grid-template-columns: repeat(2, 1fr); /* 2 columns */
-      gap: 20px; /* Slightly reduce the gap */
-  }
-
-  .circle {
-      width: 150px; /* Reduce circle size */
-      height: 150px;
-  }
-
-  .number {
-      font-size: 1.5em; /* Adjust font size for numbers */
-  }
-
-  h4 {
-      font-size: 0.9rem; /* Adjust heading size */
-  }
-}
-
-/* Mobile screens and smaller (max-width: 480px) */
-@media (max-width: 480px) {
-  .container {
-      grid-template-columns: 1fr; /* Single column */
-      gap: 20px; /* Space between rows */
-  }
-
-  .circle {
-      width: 120px; /* Further reduce circle size */
-      height: 120px;
-  }
-
-  .number {
-      font-size: 1.2em; /* Adjust font size for smaller screens */
-  }
-
-  h4 {
-      font-size: 0.8rem; /* Adjust heading size */
-  }
-}
-
-@media (max-width: 768px) {
-  .skill-main {
-      grid-template-columns: repeat(2, 1fr); 
-  }
-}
-
-@media (max-width: 480px) {
-  .skill-main {
-    flex-direction: column;
-    grid-template-columns: 1fr; 
-    text-align: center;
-  }
-}
-
-@media (max-width: 617px) {
-  .skill-main {
-    grid-template-columns: 1fr;
-  }
-}
 
 /* Portfolio section Design - Projects done layout */
 .portfolio {
@@ -878,6 +579,309 @@
   animation: show-right 1s ease forwards;
   animation-delay: calc(.3s *var(--i));
 }
+
+/* Skills Section CSS styling */
+.skills {
+  background: var(--bg-color);
+}
+
+.skill-main {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-row-gap: 30px;
+  grid-column-gap: 50px;
+}
+.skill-bar {
+  margin-bottom: 2.3rem;
+}
+
+.skill-main h3 {
+  margin-bottom: 2rem;
+  font-size: 26px;
+  text-align: center;
+}
+.main-text h2 {
+  margin-bottom: 2rem;
+  font-size: 32px;
+  text-align: center;
+  color: var(--main-color);
+}
+.main-text span {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.skill-left .skill-bar .info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.skill-left .skill-bar .bar {
+  width: 100%;
+  height: 10px;
+  background-color: var(--second-bg-color);
+  border-radius: 25px;
+  margin-top: 10px;
+  position: relative;
+  /* box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); */
+}
+
+.skill-bar .bar span {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  background: var(--main-color);
+  border-radius: 25px;
+  box-shadow: rgb(121, 243, 243);
+}
+
+.skill-bar .bar .qgis {
+  width: 91%;
+  animation: qgis 2s;
+}
+.skill-bar .bar .gee {
+  width: 89%;
+  animation: gee 3s;
+}
+.skill-bar .bar .r {
+  width: 85%;
+  animation: r 4s;
+}
+.skill-bar .bar .python {
+  width: 80%;
+  animation: python 5s;
+}
+.skill-bar .bar .javascript {
+  width: 79%;
+  animation: javascript 6s;
+}
+.skill-bar .bar .postgres-sql {
+  width: 78%;
+  animation: postgres-sql 7s;
+}
+.skill-bar .bar .html {
+  width: 75%;
+  animation: html 8s;
+}
+.skill-bar .bar .css {
+  width: 60%;
+  animation: css 9s;
+}
+
+@keyframes qgis {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 91%;
+  }
+}
+@keyframes gee {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 89%;
+  }
+}
+
+@keyframes r {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 85%;
+  }
+}
+@keyframes python {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+@keyframes javascript {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 79%;
+  }
+}
+@keyframes postgres-sql {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 78%;
+  }
+}
+@keyframes html {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+@keyframes css {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+/* Design the pie charts under Professional */
+.professional {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.container {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 20px;
+}
+
+.container .circle {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  text-align: center;
+  gap: 10px;
+}
+
+.container .circle::before{
+  content: '';
+  position: absolute;
+  inset: 5px;
+  border-radius: 50%;
+  background-color: #222;
+  opacity: 0.8;
+}
+
+.container .circle::after {
+  content: '';
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  background: #333;
+  border: 15px solid #4d4c51;
+  border-radius: 50%;
+  box-shadow: inset 0 5px 10px rgba(0, 0, 0, 0.25),
+  0 10px 10px rgba(0, 0, 0, 0.75),
+  0 -2px 2px rgba(255, 255, 255, 0.5),
+  inset 0 4px 2px rgba(0, 0, 0, 0.25),
+  inset 0 -2px 2px rgba(255, 255, 255, 0.5);
+}
+
+.container .circle .number {
+  position: relative;
+  color: var(--text-color);
+  z-index: 10;
+  line-height: 1em;
+  font-size: 2em;
+}
+
+
+.container .circle .number span {
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+.container .circle h4 {
+  position: absolute;
+  color: var(--text-color);
+  z-index: 10;
+  margin-top: 8px;
+  font-weight: 500;
+  font-size: 0.9rem;
+  text-align: center;
+  line-height: 0.6em;
+}
+
+/* Media Queries for Responsiveness */
+/* Tablet screens and smaller (max-width: 768px) */
+@media (max-width: 768px) {
+  .container {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns */
+      gap: 20px; /* Slightly reduce the gap */
+  }
+
+  .circle {
+      width: 150px; /* Reduce circle size */
+      height: 150px;
+  }
+
+  .number {
+      font-size: 1.5em; /* Adjust font size for numbers */
+  }
+
+  h4 {
+      font-size: 0.9rem; /* Adjust heading size */
+  }
+}
+
+/* Mobile screens and smaller (max-width: 480px) */
+@media (max-width: 480px) {
+  .container {
+      grid-template-columns: 1fr; /* Single column */
+      gap: 20px; /* Space between rows */
+  }
+
+  .circle {
+      width: 120px; /* Further reduce circle size */
+      height: 120px;
+  }
+
+  .number {
+      font-size: 1.2em; /* Adjust font size for smaller screens */
+  }
+
+  h4 {
+      font-size: 0.8rem; /* Adjust heading size */
+  }
+}
+
+@media (max-width: 768px) {
+  .skill-main {
+      grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
+@media (max-width: 480px) {
+  .skill-main {
+    flex-direction: column;
+    grid-template-columns: 1fr; 
+    text-align: center;
+  }
+}
+
+@media (max-width: 617px) {
+  .skill-main {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
 
 /* KEY FRAMES FOR THE ENTIRE PROJECT */
 @keyframes show-content {
