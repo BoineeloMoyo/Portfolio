@@ -794,16 +794,19 @@
   font-weight: 500;
 }
 
+
 .container .circle h4 {
   position: absolute;
   color: var(--text-color);
   z-index: 10;
-  margin-top: 8px;
+  top: 60%; /* Move the text lower */
+  transform: translateY(-50%); /* Center-align it vertically relative to its top position */
   font-weight: 500;
-  font-size: 0.7rem;
+  font-size: 1rem !important;
   text-align: center;
-  line-height: 0.6em;
+  line-height: 1.2; /* Adjust spacing between lines if needed */
 }
+
 
 /* Media Queries for Responsiveness */
 /* Tablet screens and smaller (max-width: 768px) */
