@@ -581,22 +581,202 @@
   margin-left: -2rem;
 }
 
-/* .resume-detail.skills .resume-list {
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  grid-row-gap: 30px;
-  grid-column-gap: 50px;
-  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-  height: auto;
-  overflow: visible;
-} */
+/* Skill Bars Section */
+.resume-list h3 {
+  font-size: 26px;
+  margin-bottom: 1rem;
+  text-align: center; /* Adjust alignment if necessary */
+  color: var(--main-color);
+}
 
-.resume-detail.skills .resume-item {
-  width: 100%;
+.skill-bar {
+  margin-bottom: 2.3rem;
+  position: relative;
+}
+
+.skill-bar .info {
   display: flex;
-  grid-row-gap: 30px;
-  grid-column-gap: 50px;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  padding: 0 10px;
+  color: var(--text-color);
+}
+
+.skill-bar .bar {
+  width: 100%;
+  height: 10px;
+  background-color: var(--second-bg-color);
+  border-radius: 25px;
+  margin-top: 5px;
+  position: relative;
+  overflow: hidden;
+}
+
+.skill-bar .bar span {
+  display: block;
+  height: 100%;
+  background: var(--main-color);
+  border-radius: 25px;
+  transition: width 1s ease-in-out;
+}
+
+/* Individual Animations */
+.skill-bar .bar .qgis {
+  width: 91%;
+  animation: qgis 2s ease-in-out;
+}
+
+.skill-bar .bar .gee {
+  width: 89%;
+  animation: gee 2s ease-in-out;
+}
+
+.skill-bar .bar .r {
+  width: 85%;
+  animation: r 2s ease-in-out;
+}
+
+.skill-bar .bar .python {
+  width: 80%;
+  animation: python 2s ease-in-out;
+}
+
+.skill-bar .bar .javascript {
+  width: 79%;
+  animation: javascript 2s ease-in-out;
+}
+
+.skill-bar .bar .postgres-sql {
+  width: 78%;
+  animation: postgres-sql 2s ease-in-out;
+}
+
+.skill-bar .bar .html {
+  width: 75%;
+  animation: html 2s ease-in-out;
+}
+
+.skill-bar .bar .css {
+  width: 60%;
+  animation: css 2s ease-in-out;
+}
+
+@keyframes qgis {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 91%;
+  }
+}
+@keyframes gee {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 89%;
+  }
+}
+
+@keyframes r {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 85%;
+  }
+}
+@keyframes python {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+@keyframes javascript {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 79%;
+  }
+}
+@keyframes postgres-sql {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 78%;
+  }
+}
+@keyframes html {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+@keyframes css {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+/* Professional Skills Circles */
+.skill-right h3 {
+  font-size: 22px;
+  margin-bottom: 1.5rem;
+  color: var(--main-color);
+  text-align: center;
+}
+
+.skill-right .container {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.skill-right .circle {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: conic-gradient(
+      var(--main-color) calc(var(--progress) * 1%),
+      #333 calc(var(--progress) * 1%)
+  );
+  transition: transform 0.3s ease-in-out;
+}
+
+.skill-right .circle:hover {
+  transform: scale(1.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.skill-right .circle h4 {
+  color: var(--text-color);
+  font-size: 16px;
+  margin-top: 8px;
+}
+
+.skill-right .circle .number {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--text-color);
 }
 
 .resume-detail.skills .skill-bar {
