@@ -487,6 +487,7 @@
 
 .resume-box p {
   font-size: 1.4rem;
+  text-align: justify;
 }
 
 .resume-box .desc {
@@ -583,6 +584,17 @@
 
 /* Skill Bars Section */
 
+.resume-detail.skills .resume-list {
+  display: flex;
+  flex-direction: column; 
+  gap: 3rem; 
+}
+
+/* For each skill section */
+.resume-detail.skills .resume-item {
+  margin-bottom: 2.3rem; 
+  background: none;
+}
 
 .skill-bar {
   margin-bottom: 2.3rem;
@@ -724,8 +736,14 @@
 }
 
 /* Professional Skills Circles */
+/* Professional skills container */
+.skill-right {
+  margin-top: 2rem; /* Add space between technical and professional skills */
+}
+
 .skill-right h3 {
   font-size: 22px;
+  margin-top: 48px;
   margin-bottom: 1.5rem;
   color: var(--main-color);
   text-align: center;
