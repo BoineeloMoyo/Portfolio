@@ -582,12 +582,7 @@
 }
 
 /* Skill Bars Section */
-.resume-list h3 {
-  font-size: 26px;
-  margin-bottom: 1rem;
-  text-align: center; /* Adjust alignment if necessary */
-  color: var(--main-color);
-}
+
 
 .skill-bar {
   margin-bottom: 2.3rem;
@@ -794,7 +789,6 @@
   font-weight: 500;
 }
 
-
 .container .circle h4 {
   position: absolute;
   color: var(--text-color);
@@ -802,11 +796,10 @@
   top: 60%; /* Move the text lower */
   transform: translateY(-50%); /* Center-align it vertically relative to its top position */
   font-weight: 500;
-  font-size: 1rem !important;
+  font-size: 1.1rem !important;
   text-align: center;
   line-height: 1.2; /* Adjust spacing between lines if needed */
 }
-
 
 /* Media Queries for Responsiveness */
 /* Tablet screens and smaller (max-width: 768px) */
@@ -872,51 +865,6 @@
 }
 
 
-.skill-right .circle:hover {
-  transform: scale(1.1);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
-
-.skill-right .circle h4 {
-  color: var(--text-color);
-  font-size: 16px;
-  margin-top: 8px;
-}
-
-.skill-right .circle .number {
-  font-size: 1.8rem;
-  font-weight: bold;
-  color: var(--text-color);
-}
-
-.resume-detail.skills .skill-bar {
-  margin-bottom: 2.3rem;
-}
-
-.resume-detail.skills .resume-item:hover i {
-  color: var(--main-color);
-}
-
-.resume-detail.skills .resume-item span {
-  position: absolute;
-  top: -20%;
-  background: var(--white-color);
-  color: var(--bg-color);
-  font-size: 1.6rem;
-  padding: .5rem 1rem;
-  border-radius: .6rem;
-  pointer-events: none;
-  opacity: 0;
-  transform: scale(.9);
-  transition: .2s;
-}
-
-.resume-detail.skills .resume-item:hover span {
-  top: -25%;
-  opacity: 1;
-  transform: scale(1);
-}
-
 .resume-detail.about .resume-list {
   height: auto;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
@@ -937,123 +885,6 @@
   margin-left: 1rem;
   font-size: 1.8rem;
 }
-
-/* 
-.resume {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  background-color: var(--second-bg-color);
-  align-items: center;
-  min-height: 100vh;
-  padding: 2rem;
-  margin-top: 40px;
-  gap: 2rem;
-}
-
-.resume .resume-row {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 64px;
-  width: 100%;
-  justify-content: center;
-  column-gap: 64px;
-  flex-wrap: wrap;
-  align-items: start;
-  padding: 0 4%;
-}
-
-.resume-row .resume-column {
-  flex: 1 1 320px;
-}
-
-.resume-column .title {
-  position: relative;
-  display: inline-block;
-  font-size: 28px;
-  margin: 32px 0 16px 30px;
-}
-
-.resume-column .resume-box {
-  position: relative;
-  background: var(--bg-color);
-  border-left: 2px solid var(--main-color);
-  height: 100%;
-}
-
-.resume-box .resume-content{
-  position: relative;
-  padding: 27px;
-}
-
-.resume-box .resume-content::before {
-  content: '';
-  position: absolute;
-  top: -1;
-  left: -10.5px ;
-  width: 20px;
-  height: 20px;
-  background: var(--main-color);
-  border-radius: 50%;
-
-}
-
-.resume-content .content {
-  padding: 24px;
-  border: 2px solid var(--main-color);
-  border-radius: 8px;
-  margin-bottom: 32px;
-}
-
-.resume-content .content .year {
-  font-size: 16px;
-  color: var(--main-color);
-}
-
-.resume-content .content .year i {
-  margin-right: 8px;
-}
-
-.resume-content .content h3 {
-  font-size: 19px;
-  margin: 8px 0;
-}
-
-.resume-content .content h4 {
-  font-size: 15px;
-  margin: 6px 0;
-  color: var(--main-color);
-} */
-
-/* .resume-content .content .ul {
-  list-style-type: disc;
-  color: var(--main-color);
-} */
-
-/* .resume-content .content p {
-  font-size: 14px;
-  margin-bottom: 8px;
-  padding-right: 10px;
-} */
-
-/* Color the bullet itself
-.resume-content .content ul li::marker {
-  color: var(--main-color); 
-  font-size: 2rem;
-} */
-
-/* .resume-column .animate {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 105%;
-  height: 100%;
-  background: var(--bg-color);
-  animation: show-right 1s ease forwards;
-  animation-delay: calc(.3s *var(--i));
-} */
-
-
 
 /* KEY FRAMES FOR THE ENTIRE PROJECT */
 @keyframes show-content {
@@ -1116,6 +947,17 @@
     grid-column: 1; 
   }
 }
+@media screen and (max-width: 600px) {
+  .home-img .img-box {
+      width: 30rem;
+      height: 30rem;
+  }
+
+  .contact-box .field-box {
+      grid-template-columns: 1fr;
+  }
+}
+
 
 @media (max-width: 450px) {
   html {
@@ -1126,6 +968,34 @@
     width: 100%;
   }
 }
+@media screen and (max-width: 400px) {
+
+  .home-detail,
+  .resume-box h2,
+  .resume-box .heading,
+  .resume-box .desc,
+  .resume-detail.about .resume-item {
+      text-align: center;
+  }
+
+  .home-detail .btn-sci {
+      flex-direction: column-reverse;
+  }
+
+  .home-detail .btn-sci .sci {
+      margin-left: 0;
+      margin-bottom: 2rem;
+  }
+
+  .contact-box form {
+      padding: 2.5rem 3rem 3.5rem;
+  }
+
+  .contact-box h2 {
+      font-size: 3.5rem;
+  }
+}
+
 
 @media (max-width: 365px) {
   .home-img img {
