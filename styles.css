@@ -95,6 +95,64 @@
   box-shadow: 0 0 10px var(--main-color);
 }
 
+
+/* Image Animation */
+.img-box {
+  width: 32vw;
+  position: relative;
+  height: 32vw;
+  border-radius: 50%;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.img-box::before,
+.img-box::after {
+  content: '';
+  position: absolute;
+  width: calc(32vw + 20px);
+  height: calc(32vw + 20px);
+  background: conic-gradient(transparent, transparent, transparent, var(--main-color));
+  transform: rotate(0deg);
+  animation: rotate-border 10s linear infinite;
+}
+
+.img-box::after {
+  animation-delay: -5s;
+}
+
+.img-box .img-item {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #081b29;
+  border-radius: 50%;
+  border: .1px solid #081b29;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.img-box .img-item img {
+  position: absolute;
+  top: 30px;
+  display: block;
+  width: 105%;
+  object-fit: cover;
+  mix-blend-mode: lighten;
+}
+
+@keyframes rotate-border {
+  100% {
+    transform: rotate(360deg)
+  }
+}
+
+
 /* Animated Bars section */
 .bars-animation {
   position: absolute;
