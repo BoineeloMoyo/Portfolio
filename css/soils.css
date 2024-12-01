@@ -207,7 +207,20 @@ body {
   margin-left: 1em;
 }
 /* Style for the methodology */
+/* Style for the Objectives Section Title */
+.block .left-block ul {
+  list-style: none; 
+  padding: 0;
+  margin: 0;
+}
 
+.block .left-block li {
+  margin-bottom: 10px; 
+  font-size: 15px; 
+  line-height: 1.6; 
+  text-align: left;
+  position: relative;
+}
 
 /* STYLE FOR THE RESULTS & DISCUSSION SECTION */
 
