@@ -166,11 +166,11 @@ body {
 }
 
 .equation {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
-  color: var(--main-color); /* Highlight using the main color */
-  text-align: center; /* Center the equation */
-  margin: 16px 0; /* Add spacing around the equation */
+  color: var(--main-color); 
+  text-align: center; 
+  margin: 16px 0; 
 }
 
 /* Style for Objectives Title (H3) */
