@@ -236,6 +236,7 @@ body {
 
 .results-discussion {
   width: 100%;
+  max-width: 1200px;
   text-align: center;
   margin: 20px 0;
   padding: 20px;
@@ -274,10 +275,11 @@ body {
 }
 
 .results {
-  display: flex; /* Use flexbox for better control over alignment */
-  gap: 15px; /* Space between images */
+  display: flex;
+  gap: 15px; 
   margin-bottom: 20px;
-  justify-content: center; /* Center align images */
+  justify-content: space-between;
+  align-items: center;
 }
 
 .results img {
