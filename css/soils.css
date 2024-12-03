@@ -272,3 +272,11 @@ body {
 .discussion p {
   margin-bottom: 10px;
 }
+
+.results {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
