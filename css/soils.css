@@ -264,16 +264,6 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
-.discussion {
-  text-align: left;
-  line-height: 1.8;
-  font-size: 16px;
-}
-
-.discussion p {
-  margin-bottom: 10px;
-}
-
 .results {
   display: flex;
   gap: 15px; 
@@ -290,9 +280,9 @@ body {
 }
 
 .discussion p {
-  margin-top: 10px; /* Add some space between images and the paragraph */
+  margin-top: 10px;
   text-align: justify; 
-  font-size: 1rem; 
-  line-height: 1.5; 
+  font-size: 1.4rem; 
+  line-height: 1.8; 
 }
 
