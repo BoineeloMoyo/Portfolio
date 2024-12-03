@@ -281,16 +281,16 @@ body {
 }
 
 .results img {
-  max-width: 48%; /* Ensure images fit within the div, leaving space for gap */
-  height: auto; /* Maintain aspect ratio */
+  max-width: 48%;
+  height: auto; 
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 .discussion p {
   margin-top: 10px; /* Add some space between images and the paragraph */
-  text-align: justify; /* Optional: makes text more readable */
-  font-size: 1rem; /* Adjust font size for readability */
-  line-height: 1.5; /* Improve line spacing */
+  text-align: justify; 
+  font-size: 1rem; 
+  line-height: 1.5; 
 }
 
