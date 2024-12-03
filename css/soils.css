@@ -236,7 +236,7 @@ body {
 
 .results-discussion {
   width: 100%;
-  max-width: 1200px;
+/*   max-width: 1200px; */
   text-align: center;
   margin: 20px 0;
   padding: 20px;
