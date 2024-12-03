@@ -274,14 +274,23 @@ body {
 }
 
 .results {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); 
-  gap: 15px;
+  display: flex; /* Use flexbox for better control over alignment */
+  gap: 15px; /* Space between images */
   margin-bottom: 20px;
+  justify-content: center; /* Center align images */
 }
+
 .results img {
-  width: 100%;
-  height: 100%;
+  max-width: 48%; /* Ensure images fit within the div, leaving space for gap */
+  height: auto; /* Maintain aspect ratio */
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
+
+.discussion p {
+  margin-top: 10px; /* Add some space between images and the paragraph */
+  text-align: justify; /* Optional: makes text more readable */
+  font-size: 1rem; /* Adjust font size for readability */
+  line-height: 1.5; /* Improve line spacing */
+}
+
