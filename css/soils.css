@@ -166,7 +166,7 @@ body {
 }
 
 .equation {
-  font-size: 16px;
+  font-size: 12px;
   font-weight: bold;
   color: var(--main-color); 
   text-align: center; 
@@ -260,7 +260,7 @@ body {
   width: 100%;
   height: auto;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a shadow for better visuals */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 .discussion {
@@ -279,4 +279,9 @@ body {
   gap: 15px;
   margin-bottom: 20px;
 }
-
+.results img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
