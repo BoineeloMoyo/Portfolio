@@ -238,7 +238,7 @@ body {
   width: 100%;
 /*   max-width: 1200px; */
   text-align: center;
-  margin: 20px 0;
+  margin: 0 auto;
   padding: 20px;
   background-color: var(--second-bg-color);
   border-radius: 10px;
