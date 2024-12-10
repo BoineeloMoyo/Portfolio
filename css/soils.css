@@ -166,11 +166,11 @@ body {
 }
 
 .equation {
-  font-size: 18px;
+  font-size: 12px;
   font-weight: bold;
-  color: var(--main-color); /* Highlight using the main color */
-  text-align: center; /* Center the equation */
-  margin: 16px 0; /* Add spacing around the equation */
+  color: var(--main-color); 
+  text-align: center; 
+  margin: 16px 0; 
 }
 
 /* Style for Objectives Title (H3) */
@@ -236,8 +236,9 @@ body {
 
 .results-discussion {
   width: 100%;
+/*   max-width: 1200px; */
   text-align: center;
-  margin: 20px 0;
+  margin: 0 auto;
   padding: 20px;
   background-color: var(--second-bg-color);
   border-radius: 10px;
@@ -260,9 +261,30 @@ body {
   width: 100%;
   height: auto;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a shadow for better visuals */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
+.results {
+  display: flex;
+  gap: 15px; 
+  margin-bottom: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.results img {
+  max-width: 48%;
+  height: auto; 
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+/* .discussion p {
+  margin-top: 10px;
+  text-align: justify; 
+  font-size: 16px; 
+  line-height: 1.8; 
+} */
 .discussion {
   text-align: left;
   line-height: 1.8;
