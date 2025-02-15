@@ -170,6 +170,24 @@
   opacity: 0;
 }
 
+.skills .details.communication {
+  animation: communication-fill 2s forwards;
+}
+.skills .details.team {
+  animation: team-fill 2s forwards;
+}
+.skills .details.critical {
+  animation: critical-fill 2s forwards;
+}
+.skills .details.solving {
+  animation: solving-fill 2s forwards;
+}
+.skills .details.adaptability {
+  animation: adaptability-fill 2s forwards;
+}
+.skills .details.attention {
+  animation: attention-fill 2s forwards;
+}
 
 
 
