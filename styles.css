@@ -146,9 +146,9 @@
   width: 145%; 
   height: auto;
   object-fit: cover;
+  object-position: center center;
   mix-blend-mode: lighten;
 }
-
 
 @keyframes rotate-border {
   100% {
