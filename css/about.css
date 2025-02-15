@@ -112,6 +112,8 @@
   background: var(--bg-color);
   padding: 20px;
   border: 2px solid rgba(255, 255, 255, 0.06);
+  border-radius: 10px;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.06);
   backdrop-filter: blue(10px);
 }
 
@@ -122,7 +124,7 @@
 }
 
 .header-title .line-break {
-  width: 26px;
+  width: 55%;
   height: 4px;
   background: var(--main-color);
   margin: 0 auto 15px;
@@ -139,6 +141,7 @@
   flex-basis: 35%;
   width: 100%;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
@@ -202,6 +205,64 @@
   border-radius: 10px;
   background-color: var(--main-color);
 }
+
+.bar #comms-bar {
+  animation: communication-fill 2s forwards;
+}
+@keyframes communication-fill {
+  100% {
+    width: 90%;
+    opacity: 1;
+  }
+}
+.bar #teams-bar {
+  animation: teams-fill 2s forwards;
+}
+@keyframes teams-fill {
+  100% {
+    width: 90%;
+    opacity: 1;
+  }
+}
+.bar #critical-bar {
+  animation: critical-fill 2s forwards;
+}
+@keyframes critical-fill {
+  100% {
+    width: 90%;
+    opacity: 1;
+  }
+}
+.bar #solving-bar {
+  animation: solving-fill 2s forwards;
+}
+@keyframes solving-fill {
+  100% {
+    width: 90%;
+    opacity: 1;
+  }
+}
+.bar #adaptability-bar {
+  animation: adaptability-fill 2s forwards;
+}
+@keyframes adaptability-fill {
+  100% {
+    width: 90%;
+    opacity: 1;
+  }
+}
+.bar #attention-bar {
+  animation: attention-fill 2s forwards;
+}
+@keyframes attention-fill {
+  100% {
+    width: 90%;
+    opacity: 1;
+  }
+}
+
+
+
 
 .skills {
   text-align: center;
