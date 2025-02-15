@@ -1,3 +1,11 @@
+/* Root Color Variables */
+:root {
+  --bg-color: #081b29;
+  --second-bg-color: #323946;
+  --text-color: #fff;
+  --main-color: #0ef;
+  --disabled-color: #fff3;
+} 
 /* ABOUT SECTION */
 .about {
   display: flex;
@@ -96,6 +104,12 @@
 
 .container {
   width: 900px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: bg-color;
 }
 
 .skills {
