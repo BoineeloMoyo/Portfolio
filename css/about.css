@@ -189,8 +189,19 @@
   animation: attention-fill 2s forwards;
 }
 
+.skills .bar {
+  position: relative;
+  border: 2px solid var(--main-color);
+  border-radius: 20px;
+}
 
-
+.skills .bar div {
+  position: relative;
+  width: 0;
+  height: 9px;
+  border-radius: 10px;
+  background-color: var(--main-color);
+}
 
 .skills {
   text-align: center;
