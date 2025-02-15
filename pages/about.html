@@ -67,44 +67,6 @@
     <!-- <a href="../index.html" class="btn">Back to Home</a> -->
   </section>
 
-    <!-- Professional Skills Section -->
-    <section class="skills">
-      <h2 class="heading">Soft Skills</h2>
-      <div class="skills-container">
-        <!-- Pie Chart 1 -->
-        <div class="circle-container">
-          <div class="circle" data-degree="90" data-color="#ff2972">
-            <h2 class="number">90<span>%</span></h2>
-          </div>
-          <h4>Leadership</h4>
-        </div>
-    
-        <!-- Pie Chart 2 -->
-        <div class="circle-container">
-          <div class="circle" data-degree="85" data-color="#fee800">
-            <h2 class="number">85<span>%</span></h2>
-          </div>
-          <h4>Time Management</h4>
-        </div>
-    
-        <!-- Pie Chart 3 -->
-        <div class="circle-container">
-          <div class="circle" data-degree="88" data-color="#04fc43">
-            <h2 class="number">88<span>%</span></h2>
-          </div>
-          <h4>Communication</h4>
-        </div>
-    
-        <!-- Pie Chart 4 -->
-        <div class="circle-container">
-          <div class="circle" data-degree="92" data-color="#007bff">
-            <h2 class="number">92<span>%</span></h2>
-          </div>
-          <h4>Adaptability</h4>
-        </div>
-      </div>
-    </section>
-
     <section class="bar-skills">
       <div class="container">
         <div class="header-title">
@@ -119,7 +81,7 @@
         <div class="contents">
           <!-- Skill 01 : Comms -->
            <div class="skills">
-            <div class="details comunication">
+            <div class="details communication">
               <span>Communication</span>
               <span>90%</span>
             </div>
@@ -144,7 +106,7 @@
               <span>87%</span>
             </div>
             <div class="bar">
-              <div id="critic-bar"></div>
+              <div id="critical-bar"></div>
             </div>
           </div>
          <!-- Skill 04 : Problem Solving -->
@@ -154,7 +116,7 @@
               <span>85%</span>
             </div>
             <div class="bar">
-              <div id="problem-bar"></div>
+              <div id="solving-bar"></div>
             </div>
           </div>
           <!-- Skill 05 : Adaptability -->
@@ -181,30 +143,7 @@
       </div> 
 
     </section>
-    
 
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-          let circles = document.querySelectorAll('.circle');
-          circles.forEach(function (progress) {
-              let degree = 0;
-              let targetDegree = parseInt(progress.getAttribute('data-degree'));
-              let color = progress.getAttribute('data-color');
-              let number = progress.querySelector('.number');
-
-              let interval = setInterval(function () {
-                  degree++;
-                  if (degree > targetDegree) {
-                      clearInterval(interval);
-                      return;
-                  }
-                  progress.style.background = `conic-gradient(${color} ${degree}%, #222 0%)`;
-                  number.innerHTML = degree + '<span>%</span>';
-                  number.style.color = color;
-              }, 50); 
-          });
-      });
-  </script>
 
   
 </body>
