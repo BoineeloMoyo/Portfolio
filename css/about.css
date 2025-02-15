@@ -65,57 +65,7 @@
   margin-top: 20px;
   display: flex;
   flex-wrap: wrap; 
-  gap: 1.5rem;
-}
-
-.about-info li {
-  display: flex;
-  align-items: center; 
-  font-size: 1rem;
-}
-
-.about-info strong {
-  color: var(--main-color);
-  margin-right: 5px;
-}
-
-.about-info i {
-  font-size: 1.2rem;
-  margin-right: 8px; 
-  color: var(--main-color);
-}
-
-.about img {
-  width: 70vw;
-  margin-top: 4rem;
-}
-
-@keyframes rotate-border {
-  100% {
-    transform: rotate(360deg)
-  }
-}
-
-/* General Section Styling */
-.about .skills {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
   gap: 2rem;
-  background: var(--bg-color);
-  color: var(--text-color);
-  padding: 2rem;
-}
-
-/* About Info Styling */
-.about-info {
-  list-style: none;
-  padding: 0;
-  margin: 20px 0;
-  display: flex;
-  flex-wrap: wrap; 
-  gap: 2rem; 
 }
 
 .about-info li {
@@ -127,13 +77,40 @@
 
 .about-info strong {
   color: var(--main-color);
-  margin-right: 5px; 
+  margin-right: 5px;
 }
 
 .about-info i {
-  font-size: 1.5rem; 
+  font-size: 1.5rem;
   margin-right: 8px; 
   color: var(--main-color);
+}
+
+.about img {
+  width: 70vw;
+  margin-top: 4rem;
+}
+
+
+/* Soft Skills Section */
+.skills {
+  text-align: center;
+  padding: 2rem 10%;
+  background: var(--bg-color);
+}
+
+
+.skills-container {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 20px;
+  width: 100%;
+  max-width: 1200px;
 }
 
 /* Responsive Layout */
@@ -164,20 +141,8 @@
   background: #53b8fc;
 }
 
-/* Skills Section Styling */
 
-.skills-container {
-  position: relative;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 30px;
-  padding: 20px;
-  width: 100%;
-  max-width: 1200px;
-}
+
 
 .circle-container {
   display: flex;
