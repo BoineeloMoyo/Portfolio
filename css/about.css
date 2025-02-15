@@ -100,41 +100,52 @@
 }
 
 /* Soft Skills Section */
-
-.container {
-  width: 500px;
-  height: 450px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: var(--bg-color);
-  padding: 20px;
-  border: 2px solid rgba(255, 255, 255, 0.06);
-  border-radius: 10px;
-  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.06);
-  backdrop-filter: blue(10px);
+.header-title {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 10px;
 }
 
-.container .header-title h2 {
-  font: 36px;
-  font-weight: 600;
-  color: var(--main-color);
+.header-title h2 {
+  margin-bottom: 2rem;
+  font-size: 32px;
+  text-align: center;
 }
 
 .header-title .line-break {
-  width: 55%;
+  width: 30%;
   height: 4px;
   background: var(--main-color);
   margin: 0 auto 15px;
 }
 
-.container.skills-bar {
+.skills-main {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-row-gap: 30px;
+  grid-column-gap: 50px;
+  
+}
+
+.skills-bar {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+/* Layout for Image and Progress Bars */
+.skills-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.06);
+  border-radius: 10px;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.06);
+}
 
 .skills-bar .image {
   flex-basis: 35%;
@@ -145,10 +156,9 @@
 }
 
 .skills-bar img {
-  max-width: 450px; /* Adjust to your preferred size */
-  height: auto; /* Maintain aspect ratio */
-  /* display: block; */
-  margin: 0 auto; /* Centering */
+  max-width: 450px; 
+  height: auto; 
+  margin: 0 auto; 
 }
 
 .skills .bar {
@@ -157,12 +167,13 @@
   border: 2px solid var(--main-color);
   border-radius: 10px;
   background: var(--second-bg-color);
+  margin-bottom: 10px;
 }
+
 .skills .bar div {
   height: 100%; /* Ensures it fills the bar */
   border-radius: 10px;
 }
-
 
 .skills-bar .image img:hover {
   transform: translateY(-5px);
@@ -172,6 +183,11 @@
   flex-basis: 65%;
   width: 100%;
   padding: 20px 40px 20px 15px;
+}
+
+.contents {
+  flex: 1; /* Allow progress bars to fill remaining space */
+  padding: 0 20px;
 }
 
 .contents .skills:not(:last-child) {
@@ -276,13 +292,19 @@
 }
 
 /* Responsive Design */
+@media (max-width: 617px) {
+  .skills-main {
+    grid-template-columns: 1fr; 
+    gap: 1.5rem; 
+  }
+}
 @media (max-width: 900px) {
   .skills-bar .image img {
     width: 330px;
   }
 }
 @media (max-width: 650px) {
-  .container {
+  .skills-main {
     width: 100%;
     height: 100%;
     border: none;
@@ -290,7 +312,7 @@
     padding:  40px 6%;
   }
 
-  .container .image,
+  .skills-main .image,
   .skills-bar .contents {
     flex-basis: 100%;
   }
