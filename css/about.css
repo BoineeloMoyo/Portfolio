@@ -33,7 +33,8 @@
   width: 100%; 
   height: auto; 
   display: block; 
-  margin: 0 auto; 
+  object-fit: cover; /* Ensures the image maintains its aspect ratio while covering the box */
+  object-position: center; 
 }
 
 
@@ -292,24 +293,56 @@
 }
 
 /* Responsive Design */
-@media (max-width: 617px) {
-  .skills-main {
-    grid-template-columns: 1fr; 
-    gap: 1.5rem; 
+@media (max-width: 768px) {
+  .about-img img {
+    width: 350px;  /* Reduce width for smaller screens */
+    height: 400px;
   }
 }
+
+@media (max-width: 480px) {
+  .about-img img {
+    width: 380px;  /* Further reduce width for very small screens */
+    height: 320px;
+  }
+}
+
+@media (max-width: 617px) {
+  .skills-main {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  .skills-bar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .skills-bar .image {
+    order: -1; /* Moves the image above the content */
+    margin-bottom: 20px;
+  }
+  .skills-bar .contents {
+    width: 100%;
+    padding: 10px;
+  }
+  .skills-bar .image img {
+    width: 100%;
+    max-width: 330px;
+  }
+}
+
 @media (max-width: 900px) {
   .skills-bar .image img {
     width: 330px;
   }
 }
+
 @media (max-width: 650px) {
   .skills-main {
     width: 100%;
     height: 100%;
     border: none;
     border-radius: 0;
-    padding:  40px 6%;
+    padding: 40px 6%;
   }
 
   .skills-main .image,
@@ -324,5 +357,4 @@
   .skills-bar .contents {
     padding: 0;
   }
-
 }
