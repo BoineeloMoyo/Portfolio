@@ -93,6 +93,11 @@
 
 
 /* Soft Skills Section */
+
+.container {
+  width: 900px;
+}
+
 .skills {
   text-align: center;
   padding: 2rem 10%;
