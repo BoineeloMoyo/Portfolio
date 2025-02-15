@@ -142,8 +142,8 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%) scale(1.2); /* Zoom in */
-  width: 115%; /* Increase size slightly */
+  transform: translate(-50%, -50%) scale(1.2); 
+  width: 145%; 
   height: auto;
   object-fit: cover;
   mix-blend-mode: lighten;
