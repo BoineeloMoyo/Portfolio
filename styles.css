@@ -896,7 +896,7 @@
 }
 
 .resume-detail.about .resume-item {
-  height: auto;
+  height: 100%;
   padding: 0 0 .5rem;
   background: transparent;
 }
