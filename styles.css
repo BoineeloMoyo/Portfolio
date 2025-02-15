@@ -140,12 +140,15 @@
 
 .img-box .img-item img {
   position: absolute;
-  top: 30px;
-  display: block;
-  width: 105%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1.2); /* Zoom in */
+  width: 115%; /* Increase size slightly */
+  height: auto;
   object-fit: cover;
   mix-blend-mode: lighten;
 }
+
 
 @keyframes rotate-border {
   100% {
