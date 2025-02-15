@@ -102,10 +102,9 @@
 /* Soft Skills Section */
 
 .container {
-  width: 900px;
+  width: 500px;
   height: 450px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   background: var(--bg-color);
@@ -136,6 +135,7 @@
   align-items: center;
 }
 
+
 .skills-bar .image {
   flex-basis: 35%;
   width: 100%;
@@ -144,11 +144,25 @@
   align-items: center;
 }
 
-.skills-bar .image img {
-  width: 400px;
-  cursor: pointer;
-  transition: all 0.5s;
+.skills-bar img {
+  max-width: 450px; /* Adjust to your preferred size */
+  height: auto; /* Maintain aspect ratio */
+  /* display: block; */
+  margin: 0 auto; /* Centering */
 }
+
+.skills .bar {
+  width: 100%; /* Full width of container */
+  height: 12px; /* Slightly bigger for better visibility */
+  border: 2px solid var(--main-color);
+  border-radius: 10px;
+  background: var(--second-bg-color);
+}
+.skills .bar div {
+  height: 100%; /* Ensures it fills the bar */
+  border-radius: 10px;
+}
+
 
 .skills-bar .image img:hover {
   transform: translateY(-5px);
