@@ -3,27 +3,42 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 3rem;
+  background: var(--bg-color);
+  padding: 4rem 10%;
+  flex-wrap: wrap;
+}
+/* About Image Styling */
+.about-img {
+  width: 470px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--main-color); 
+  border-radius: 10px; 
+  overflow: hidden;
   background: var(--bg-color);
 }
 
-.about-content a {
-  color: var(--main-color); 
-  text-decoration: underline;
+.about-img img {
+  width: 100%; 
+  height: auto; 
+  display: block; 
+  margin: 0 auto; 
 }
 
-.about-content a:hover {
-  color: var(--main-color) 
-}
 
-.heading {
-  text-align: center;
-  font-size: 45px;
+/* About Content */
+.about-content {
+  flex: 1;
+  max-width: 600px;
 }
 
 .about-content h2 {
   text-align: left;
   line-height: 1.2;
+  font-size: 2.5rem;
 }
 
 .about-content h3 {
@@ -32,11 +47,43 @@
 }
 
 .about-content p {
-  font-size: 16px;
-  margin: 20px 0 30px;
-  justify-content: center;
+  font-size: 1.6rem;
+  margin: 10px 0 20px;
+  line-height: 1.2;
+  text-align: justify;
 }
 
+.about-content a {
+  color: var(--main-color); 
+  text-decoration: underline;
+}
+
+/* About Info Section */
+.about-info {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 1.5rem;
+}
+
+.about-info li {
+  display: flex;
+  align-items: center; 
+  font-size: 1rem;
+}
+
+.about-info strong {
+  color: var(--main-color);
+  margin-right: 5px;
+}
+
+.about-info i {
+  font-size: 1.2rem;
+  margin-right: 8px; 
+  color: var(--main-color);
+}
 
 .about img {
   width: 70vw;
