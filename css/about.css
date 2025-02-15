@@ -115,6 +115,45 @@
   backdrop-filter: blue(10px);
 }
 
+.container .header-title h2 {
+  font: 36px;
+  font-weight: 600;
+  color: var(--main-color);
+}
+
+.header-title .line-break {
+  width: 26px;
+  height: 4px;
+  background: var(--main-color);
+  margin: 0 auto 15px;
+}
+
+.container.skills-bar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-bar .image {
+  flex-basis: 35%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.skills-bar .image img {
+  width: 400px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.skills-bar .image img:hover {
+  transform: translateY(-5px);
+}
+
+
+
 
 
 .skills {
