@@ -109,8 +109,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: bg-color;
+  background: var(--bg-color);
+  padding: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.06);
+  backdrop-filter: blue(10px);
 }
+
+
 
 .skills {
   text-align: center;
