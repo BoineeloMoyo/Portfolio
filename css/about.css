@@ -152,6 +152,24 @@
   transform: translateY(-5px);
 }
 
+.skills-bar .contents {
+  flex-basis: 65%;
+  width: 100%;
+  padding: 20px 40px 20px 15px;
+}
+
+.contents .skills:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.skills .details {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  width: 0;
+  opacity: 0;
+}
+
 
 
 
