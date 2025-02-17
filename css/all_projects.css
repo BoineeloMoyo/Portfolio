@@ -73,13 +73,13 @@ body {
   margin-bottom: 40px;
   top: 0;
   z-index: 1000;
-  background: var(--second-bg-color); /* Ensure it has a background */
+  background: var(--second-bg-color); 
   transition: opacity 0.5s ease-in-out, transform 0.3s ease-in-out;
 }
 .nav-hidden {
   opacity: 0;
-  pointer-events: none; /* Prevent interaction when hidden */
-  transform: translateY(-10px); /* Slightly move up when hiding */
+  pointer-events: none; 
+  transform: translateY(-10px); 
 }
 
 
