@@ -121,6 +121,8 @@ section h2 {
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
   display: flex;
+  flex-direction: column; /* Stack content vertically */
+  align-items: center; /* Center text content */
 }
 
 .project-box img {
