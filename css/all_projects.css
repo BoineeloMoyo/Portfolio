@@ -126,11 +126,11 @@ section h2 {
 }
 
 .project-box img {
-  width: 90%;
-  height: 350px;
+  width: 100%;
+  height: 450px;
   display: block;
   object-fit: cover;
-  border-radius: 20px;
+  border-radius: 10px;
   transition: .5s ease;
 }
 
