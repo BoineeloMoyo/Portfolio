@@ -130,7 +130,7 @@ section h2 {
   height: 450px;
   display: block;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 10px; 
   transition: .5s ease;
 }
 
