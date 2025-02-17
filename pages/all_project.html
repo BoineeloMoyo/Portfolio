@@ -29,12 +29,23 @@
     <h1 class="page-title">All Projects</h1>
 
     <!-- Navigation Section -->
-    <nav class="navigation">
+    <!-- <nav class="navigation">
         <a href="#geospatial" class="nav-btn">Geospatial</a>
         <a href="#data-science" class="nav-btn">Data Science</a>
         <a href="#cartography" class="nav-btn">Cartography</a>
         <a href="#publications" class="nav-btn">Publications</a>
+    </nav> -->
+
+    <nav class="navigation">
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div> <!-- Hamburger Icon -->
+        <div class="nav-links">
+            <a href="#geospatial" class="nav-btn" onclick="closeMenu()">Geospatial</a>
+            <a href="#data-science" class="nav-btn" onclick="closeMenu()">Data Science</a>
+            <a href="#cartography" class="nav-btn" onclick="closeMenu()">Cartography</a>
+            <a href="#publications" class="nav-btn" onclick="closeMenu()">Publications</a>
+        </div>
     </nav>
+    
 
     <!-- Geospatial Projects -->
     <section id="geospatial">
