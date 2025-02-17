@@ -11,7 +11,7 @@ menuIcon.addEventListener('click', () => {
 
 const activePage = () => {
     const header = document.querySelector('header');
-    const barsBox = document.querySelector('.bars-box');
+    const barsBox = document.querySelector('.bars-animation');
 
     header.classList.remove('active');
     setTimeout(() => {
