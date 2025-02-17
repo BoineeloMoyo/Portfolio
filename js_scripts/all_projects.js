@@ -13,3 +13,16 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+let lastScrollY = window.scrollY;
+const navbar = document.querySelector(".navigation");
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > lastScrollY) {
+    // Scrolling down → Hide navbar
+    navbar.classList.add("nav-hidden");
+  } else {
+    // Scrolling up → Show navbar
+    navbar.classList.remove("nav-hidden");
+  }
+  lastScrollY = window.scrollY;
+});
