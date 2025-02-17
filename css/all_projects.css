@@ -67,6 +67,7 @@ body {
 .navigation {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 20px;
   padding: 15px;
   position: sticky;
@@ -76,12 +77,12 @@ body {
   background: var(--second-bg-color); 
   transition: opacity 0.5s ease-in-out, transform 0.3s ease-in-out;
 }
+
 .nav-hidden {
   opacity: 0;
   pointer-events: none; 
   transform: translateY(-10px); 
 }
-
 
 .nav-btn {
   padding: 10px 28px;
@@ -100,6 +101,50 @@ body {
   background: transparent;
   color: var(--main-color);
   box-shadow: none;
+}
+
+/* Default nav links */
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+/* Menu toggle (hamburger icon) */
+.menu-toggle {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: var(--main-color);
+  position: absolute;
+  right: 20px;
+}
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none; /* Hide menu by default */
+    flex-direction: column;
+    background: var(--second-bg-color);
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    border-top: 2px solid var(--main-color);
+  }
+
+  .nav-links.active {
+    display: flex; /* Show menu when active */
+  }
+
+  .menu-toggle {
+    display: block; /* Show menu icon on small screens */
+  }
+
+  .nav-btn {
+    display: block;
+    padding: 10px;
+  }
 }
 
 /* Section Titles */
