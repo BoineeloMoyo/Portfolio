@@ -307,7 +307,11 @@
   font-size: 2rem;
   color: var(--second-bg-color);
 }
-
+/* Contact section Design */
+.contact {
+  background: var(--second-bg-color);
+  /* margin-bottom: -25rem; */
+}
 .contact h2 {
   margin-bottom: 3rem;
 
@@ -332,7 +336,7 @@
   padding: 1.5rem;
   font-size: 1.6rem;
   color: var(--text-color);
-  background-color: var(--second-bg-color);
+  background-color: var(--bg-color);
   border-radius: .8rem;
   margin: .7rem 0;
 }
@@ -355,7 +359,7 @@
   justify-content: space-between;
   align-items: wrap;
   padding: 2rem 9%;
-  background: var(--second-bg-color);
+  background: var(--bg-color);
 }
 
 .footer-text {
