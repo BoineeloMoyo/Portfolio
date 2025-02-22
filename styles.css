@@ -367,7 +367,7 @@
   justify-content: center;
   align-items: center;
   padding: .8rem;
-  background: var(--main-color);
+  background: var(--second-bg-color);
   border-radius: .8rem;
   transition: .5s ease;
 
