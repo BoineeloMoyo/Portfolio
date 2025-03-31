@@ -7,6 +7,11 @@
   --disabled-color: #fff3;
 } 
 
+/* section styling */
+section {
+  
+}
+
 /* Home Section */
 .home {
   display: flex;
