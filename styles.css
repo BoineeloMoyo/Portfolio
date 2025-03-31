@@ -96,7 +96,8 @@
   box-shadow: 0 0 10px var(--main-color);
 }
 #menu-icon {
-  
+  font-size: 4rem;
+  display: none;
 }
 /* Image Animation */
 .img-box {
