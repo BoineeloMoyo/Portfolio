@@ -103,10 +103,12 @@
   color: var(--bg-color);
   box-shadow: 0 0 10px var(--main-color);
 }
-#menu-icon {
+
+/* #menu-icon {
   font-size: 4rem;
   display: none;
-}
+} */
+
 /* Image Animation */
 .img-box {
   width: 32vw;
