@@ -486,6 +486,16 @@
     height: 35rem;
   }
 
+  .resume-container,
+  .portfolio-container, 
+  .contact-container {
+    grid-template-columns: 1fr;
+  }
+
+  .resume-container {
+    gap: 3rem;
+  }
+
   .proficiency h2 {
     margin-bottom: 3rem;
   }
