@@ -463,7 +463,9 @@
   }
 
   .home {
-    flex-direction: column;
+    flex-direction: column-reverse;
+    justify-content: center;
+    gap: 2rem;
   }
 
   .home-info h3 {
