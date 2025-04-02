@@ -438,7 +438,7 @@
   #menu-icon {
     display: block;
   }
-
+  
   .navbar {
     position: absolute;
     top: 100%;
@@ -487,7 +487,6 @@
   }
 
   .resume-container,
-  .portfolio-container, 
   .contact-container {
     grid-template-columns: 1fr;
   }
@@ -1024,7 +1023,7 @@
 }
 
 
-@media (max-width: 450px) {
+@media screen and (max-width: 450px) {
   html {
     font-size: 50%;
   }
@@ -1034,19 +1033,19 @@
   }
 }
 @media screen and (max-width: 400px) {
-  .home-detail,
+  .home-info,
   .resume-box h2,
   .resume-box .heading,
   .resume-box .desc,
-  .resume-detail.about .resume-item {
+  .resume-info.about .resume-item {
       text-align: center;
   }
 
-  .home-detail .btn-sci {
+  .home-info .btn-sci {
       flex-direction: column-reverse;
   }
 
-  .home-detail .btn-sci .sci {
+  .home-info .btn-sci .sci {
       margin-left: 0;
       margin-bottom: 2rem;
   }
