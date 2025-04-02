@@ -481,6 +481,11 @@
     margin-top: 4rem;
   }
 
+  .home-img .img-box {
+    width: 35rem;
+    height: 35rem;
+  }
+
   .proficiency h2 {
     margin-bottom: 3rem;
   }
