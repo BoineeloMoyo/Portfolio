@@ -105,11 +105,10 @@
   box-shadow: 0 0 10px var(--main-color);
 }
 
-/* #menu-icon {
+#menu-icon {
   font-size: 4rem;
   display: none;
-} */
-
+}
 
 /* Image Animation */
 .img-box {
@@ -408,7 +407,7 @@
   }
 }
 
-@media (max-width: 992px) {
+@media screen and (max-width: 992px) {
   .header {
     padding: 2rem 3%;
   }
@@ -454,7 +453,7 @@
 
   .navbar.active {
     display: block;
-    margin: 4rem;
+    margin: 4rem 0;
   }
 
   .navbar a {
