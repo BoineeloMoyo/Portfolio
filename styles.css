@@ -1048,6 +1048,7 @@ header.active {
     grid-column: 1; 
   }
 }
+
 @media screen and (max-width: 600px) {
   .home-img .img-box {
       width: 30rem;
