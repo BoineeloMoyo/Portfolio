@@ -19,6 +19,9 @@
   --disabled-color: #fff3;
 } 
 
+html {
+  font-size: 62.5%;
+}
 
 /* Home Section */
 .home {
