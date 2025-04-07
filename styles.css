@@ -539,6 +539,10 @@ header.active {
   .portfolio-container {
     grid-template-columns: repeat(2, 1fr) ;
   }
+
+  .contact-box .field-box {
+    grid-template-columns: repeat(2, 1fr);
+}
 }
 
 /* Resume Section Styling*/
