@@ -145,7 +145,7 @@ header.active {
 }
 
 /* Image Animation */
-.img-box {
+ .home-img .img-box {
   width: 32vw;
   position: relative;
   height: 32vw;
