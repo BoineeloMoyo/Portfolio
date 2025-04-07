@@ -1076,7 +1076,7 @@ header.active {
   }
 }
 
-@media (max-width: 365px) {
+/* @media (max-width: 365px) {
   .home-img img {
     width: 90vw;
   }
@@ -1093,4 +1093,4 @@ header.active {
     text-align: center;
     margin-top: 2rem;
   }
-}
+} */
