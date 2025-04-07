@@ -157,8 +157,8 @@ header.active {
   overflow: hidden;
 }
 
-.img-box::before,
-.img-box::after {
+.home-img .img-box::before,
+.home-img .img-box::after {
   content: '';
   position: absolute;
   width: calc(32vw + 20px);
