@@ -900,7 +900,7 @@ header.active {
 @media (max-width: 480px) {
   .container {
       grid-template-columns: 1fr; 
-      gap: 20px; /* Space between rows */
+      gap: 20px; 
   }
 
   .circle {
@@ -909,7 +909,7 @@ header.active {
   }
 
   .number {
-      font-size: 1.2em; /* Adjust font size for smaller screens */
+      font-size: 1.2em; 
   }
 
   h4 {
