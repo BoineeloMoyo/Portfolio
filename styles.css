@@ -904,7 +904,7 @@ header.active {
   }
 
   .circle {
-      width: 120px; /* Further reduce circle size */
+      width: 120px; 
       height: 120px;
   }
 
