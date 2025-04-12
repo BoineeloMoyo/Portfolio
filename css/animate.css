@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/*!
+Animate.css - http://daneden.me/animate
+Licensed under the MIT license - http://opensource.org/licenses/MIT
+
+Copyright (c) 2015 Daniel Eden
+*/
+.btn-success.disabled{
+background-color: #5cb85c;
+    border-color: #4cae4c;
+	opacity:1 !important;
+}
+.btn-success.disabled:hover{
+    color: #fff;
+    background-color: #47a447;
+    border-color: #398439;
+    opacity:1 !important;
+}
+.has-error  li{
+    list-style: none !important;
+	color:#b94a48 !important;
+	    background-image: none !important;
+      font-size: 15px;
+      text-align: left;
+}
+#msgSubmit {
+  font-size: 2rem;
+}
+.h3.text-center.tada.animated.text-success {
+  color: #4cae4c;
+  text-align: center;
+  font-size: 16px;
+}
+.h3.text-center.text-danger {
+  color: #b94a48;
+  text-align: center;
+  font-size: 16px;
+}
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
