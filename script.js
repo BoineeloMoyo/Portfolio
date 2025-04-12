@@ -127,6 +127,35 @@ arrowLeft.addEventListener('click', () => {
 
 
 
+// mobile navigation 
+const toggleIcon = document.getElementById('menu-icon');
+  const navBar = document.querySelector('.navbar');
+  let isOpen = false;
+
+  toggleIcon.addEventListener('click', () => {
+    navBar.classList.toggle('active');
+    isOpen = !isOpen;
+    toggleIcon.classList.toggle('bx-menu');
+    toggleIcon.classList.toggle('bx-x'); // close icon
+  });
+
+  // Close menu when any link is clicked
+  document.querySelectorAll('.navbar a').forEach(link => {
+    link.addEventListener('click', () => {
+      if (isOpen) {
+        navBar.classList.remove('active');
+        toggleIcon.classList.add('bx-menu');
+        toggleIcon.classList.remove('bx-x');
+        isOpen = false;
+      }
+    });
+  });
+
+
+
+
+
+
 
 
 
