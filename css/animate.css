@@ -187,3 +187,8 @@ background-color: #5cb85c;
       transform: scale3d(1, 1, 1);
     }
   }
+  .pulse {
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+  }
+  
