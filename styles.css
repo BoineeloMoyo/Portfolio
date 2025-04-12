@@ -1094,25 +1094,6 @@ header.active {
   }
 }
 
-/* @media (max-width: 365px) {
-  .home-img img {
-    width: 90vw;
-  }
-
-  .about-img {
-    width: 90vw;
-  }
-
-  .footer {
-    flex-direction: column-reverse;
-  }
-
-  .footer p {
-    text-align: center;
-    margin-top: 2rem;
-  }
-} */
-
 
 /* mobile nav  */
 @media screen and (max-width:991px) {
