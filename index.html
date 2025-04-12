@@ -550,7 +550,15 @@
        <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me!</span></h2>
 
-        <form action="https://api.web3forms.com/submit" method="POST">
+        <form role="form" id="contactForm" class="contact-form" data-toggle="validator" class="shake">
+          <div class="form-group-outer">
+            <div class="form-group">
+              <div class="controls">
+                <input type="text" id="name" class="form-control" placeholder="Full Name" required data-error="Please enter your name">
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+            
           <div class="input-box">
              <input type="hidden" name="access_key" value="30d2bb06-7951-4dce-b66e-1aea16bf06b8">
             <input type="text" placeholder="Full Name">
