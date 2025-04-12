@@ -49,6 +49,13 @@ header {
   animation-delay: 1.2s;
 }
 
+@media screen and (max-width: 991px) {
+  header {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
 header.active {
   animation: show-header 1.5s linear forwards;
   animation-delay: 1.2s;
@@ -71,10 +78,6 @@ header.active {
   color: var(--main-color);
 }
 
-.navbar {
-  display: flex;
-}
-
 .navbar a {
   list-style: none;
   font-size: 20px;
@@ -90,13 +93,13 @@ header.active {
 }
 
 #menu-icon {
-  font-size: 4rem;
-  display: none;
+  font-size: 3.5rem;
+  cursor: pointer;
+  color: var(--main-color);
 }
 
 /* Section Styling */
 section {
-  min-height: 100vh;
   padding: 10rem 9%;
   /* margin-bottom: 1px; */
 }
@@ -104,4 +107,16 @@ section {
 .heading {
   text-align: center;
   font-size: 45px;
+}
+
+@media screen and (max-width:767px) {
+
+  .heading {
+    font-size: 32px;
+  }
+
+  section {
+    padding: 4rem 25px;
+  }
+
 }
