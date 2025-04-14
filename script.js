@@ -122,11 +122,6 @@ arrowLeft.addEventListener('click', () => {
     activePortfolio();
 });
 
-
-
-
-
-
 // mobile navigation 
 const toggleIcon = document.getElementById('menu-icon');
   const navBar = document.querySelector('.navbar');
@@ -150,12 +145,6 @@ const toggleIcon = document.getElementById('menu-icon');
       }
     });
   });
-
-
-
-
-
-
 
 
 
